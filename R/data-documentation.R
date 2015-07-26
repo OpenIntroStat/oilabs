@@ -15,5 +15,6 @@
 #'   \item{boys}{number of male christenings (births)}
 #'   \item{girls}{number of female christenings (births)}
 #' }
-#' @source These data are from the HistData package in R.\code{\link[HistData]{Arbuthnot}}
+#' @source These data are excerpted from the \code{\link[HistData]{Arbuthnot}}
+#' data set in the HistData package.
 "arbuthnot"
