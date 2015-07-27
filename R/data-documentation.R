@@ -52,6 +52,31 @@
 #'    \item{age}{A numerical vector, respondent's age in years}
 #'    \item{gender}{A numerical vector, respondent's gender}
 #' }
-#' @source These data are excerpted from the Behavioral Risk Factor Surveillance System
-#' survey conducted by the CDC. For more information, see the \href{http://www.cdc.gov/brfss/}{BRFSS Web site}.
+#' @source These data are excerpted from the Behavioral Risk Factor Surveillance
+#' System survey conducted by the CDC. For more information, see the
+#' \href{http://www.cdc.gov/brfss/}{BRFSS Web site}.
 "cdc"
+
+#' Kobe Bryant basketball performance
+#'
+#' Data from the five games the Los Angeles Lakers played against the Orlando
+#' Magic in the 2009 NBA finals.
+#'
+#' Each row represents a shot Kobe Bryant took during the five games of the
+#' 2009 NBA finals. Kobe Bryant's performance earned him the title of Most
+#' Valuable Player and many spectators commented on how he appeared to show
+#' a hot hand.
+#'
+#' @format A data frame with 133 rows and 6 variables:
+#' \describe{
+#'   \item{vs}{A categorical vector, ORL if the Los Angeles Lakers played
+#'   against Orlando}
+#'   \item{game}{A numerical vector, game in the 2009 NBA finals}
+#'   \item{quarter}{A categorical vector, quarter in the game, OT stands for
+#'   overtime}
+#'   \item{time}{A categorical vector, time at which Kobe took a shot}
+#'   \item{description}{A categorical vector, description of the shot}
+#'   \item{basket}{A categorical vector, H if the shot was a hit, M if the shot
+#'   was a miss}
+#' }
+"kobe"
