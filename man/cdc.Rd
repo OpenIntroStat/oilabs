@@ -21,8 +21,9 @@
    \item{gender}{A numerical vector, respondent's gender}
 }}
 \source{
-These data are excerpted from the Behavioral Risk Factor Surveillance System
-survey conducted by the CDC. For more information, see the \href{http://www.cdc.gov/brfss/}{BRFSS Web site}.
+These data are excerpted from the Behavioral Risk Factor Surveillance
+System survey conducted by the CDC. For more information, see the
+\href{http://www.cdc.gov/brfss/}{BRFSS Web site}.
 }
 \usage{
 cdc
