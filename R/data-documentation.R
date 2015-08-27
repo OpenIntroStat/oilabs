@@ -19,6 +19,22 @@
 #' data set in the HistData package.
 "arbuthnot"
 
+#' Male and female births in the US
+#'
+#' Counts of the total number of male and femals births in the United States from
+#' 1940 to 2002.
+#'
+#' @format A data frame with 63 rows and 3 variables:
+#' \describe{
+#'   \item{year}{year, ranging from 1940 to 2002}
+#'   \item{boys}{number of male births}
+#'   \item{girls}{number of female births}
+#' }
+#' @source These data appear in Mathews TJ, and Hamilton BE. 2005. Trend
+#' analysis of the sex ratio at birth in the United States. National Vital
+#' Statistics Reports 53(20):1-17.
+"present"
+
 #' Behavioral survey
 #'
 #' This data set is a random sample of 20,000 people from the Behavioral Risk
