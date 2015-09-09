@@ -96,3 +96,83 @@
 #'   was a miss}
 #' }
 "kobe"
+
+#' Teachers evaluations at the University of Texas at Austin
+#'
+#' The data were gathered from end of semester student evaluations for a large
+#' sample of professors from the University of Texas at Austin (variables beginning
+#' with \code{cls}). In addition, six students rated the professors' physical
+#' appearance (variables beginning with \code{bty}). (This is a slightly modified
+#' version of the original data set that was released as part of the replication
+#' data for Data Analysis Using Regression and Multilevel/Hierarchical Models
+#' (Gelman and Hill, 2007).
+#'
+#' @format A data frame with 463 rows and 21 variables:
+#' \describe{
+#'   \item{score}{Average professor evaluation score: (1) very unsatisfactory - (5) excellent}
+#'   \item{rank}{Rank of professor: teaching, tenure track, tenure}
+#'   \item{ethnicity}{Ethnicity of professor: not minority, minority}
+#'   \item{gender}{Gender of professor: female, male}
+#'   \item{language}{Language of school where professor received education: english or non-english}
+#'   \item{age}{Age of professor}
+#'   \item{cls_perc_eval}{Percent of students in class who completed evaluation}
+#'   \item{cls_did_eval}{Number of students in class who completed evaluation}
+#'   \item{cls_students}{Total number of students in class}
+#'   \item{cls_level}{Class level: lower, upper}
+#'   \item{cls_profs}{Number of professors teaching sections in course in sample: single, multiple}
+#'   \item{cls_credits}{Number of credits of class: one credit (lab, PE, etc.), multi credit}
+#'   \item{bty_f1lower}{Beauty rating of professor from lower level female: (1) lowest - (10) highest}
+#'   \item{bty_f1upper}{Beauty rating of professor from upper level female: (1) lowest - (10) highest}
+#'   \item{bty_f2upper}{Beauty rating of professor from second upper level female: (1) lowest - (10) highest}
+#'   \item{bty_m1lower}{Beauty rating of professor from lower level male: (1) lowest - (10) highest}
+#'   \item{bty_m1upper}{Beauty rating of professor from upper level male: (1) lowest - (10) highest}
+#'   \item{bty_m2upper}{Beauty rating of professor from second upper level male: (1) lowest - (10) highest}
+#'   \item{bty_avg}{Average beauty rating of professor}
+#'   \item{pic_outfit}{Outfit of professor in picture: not formal, formal}
+#'   \item{pic_color}{Color of professor's picture: color, black & white}
+#' }
+#' @source These data appear in Hamermesh DS, and Parker A. 2005. Beauty in the
+#' classroom: instructors pulchritude and putative pedagogical productivity. Economics of Education Review
+#'  24(4):369-376.
+"evals"
+
+#' Major League Baseball team data
+#'
+#' Data from all 30 Major League Baseball teams from the 2011 season.
+#'
+#' @format A data frame with 30 rows and 12 variables:
+#' \describe{
+#'   \item{team}{Team name.}
+#'   \item{runs}{Number of runs.}
+#'   \item{at_bats}{Number of at bats.}
+#'   \item{hits}{Number of hits.}
+#'   \item{homeruns}{Number of home runs.}
+#'   \item{bat_avg}{Batting average.}
+#'   \item{strikeouts}{Number of strikeouts.}
+#'   \item{stolen_bases}{Number of stolen bases.}
+#'   \item{wins}{Number of wins.}
+#'   \item{new_onbase}{Newer variable: on-base percentage, a measure of
+#'   how often a batter reaches base for any reason other than a fielding error,
+#'   fielder's choice, dropped/uncaught third strike, fielder's obstruction, or
+#'   catcher's interference.}
+#'   \item{new_slug}{Newer variable: slugging percentage, popular measure of the
+#'   power of a hitter calculated as the total bases divided by at bats.}
+#'   \item{new_obs}{Newer variable: on-base plus slugging, calculated as the sum of the on-base and slugging percentages.}
+#' }
+#' @source \href{http://www.mlb.com/}{mlb.com}
+"mlb11"
+
+#' Atheism in the world data
+#'
+#' Survey results on atheism across several countries and years. Each row
+#' represents a single respondent.
+#'
+#' @format A data frame with 88032 rows and 3 variables:
+#' \describe{
+#'   \item{nationality}{Country of the individual surveyed.}
+#'   \item{response}{A categorical variable with two levels: atheist and non-atheist.}
+#'   \item{year}{Year in which the person was surveyed.}
+#'   }
+#' @source \href{http://www.wingia.com/web/files/richeditor/filemanager/Global_INDEX_of_Religiosity_and_Atheism_PR__6.pdf}{WIN-Gallup International Press Release}
+"atheism"
+
