@@ -12,6 +12,8 @@ Description: This R package provides a companion to the OpenIntro
     functions used in these labs and is necessary for successful completion of them. 
 License: CC0
 LazyData: TRUE
+Imports:
+    BHH2
 Depends:
     R (>= 2.10)
 Suggests:

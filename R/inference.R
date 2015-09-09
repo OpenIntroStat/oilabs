@@ -98,6 +98,28 @@ FTail <- function(U = NULL, df_n = 100, df_d = 100, curveColor = 1, border = 1, 
     axis(1, at = c(0, U), label = c(NA, round(U, 4)))
 }
 
+#' inference
+#' @description what does this do?
+#' @param y 
+#' @param x
+#' @param est
+#' @param success
+#' @param order
+#' @param conflevel
+#' @param siglevel
+#' @param null
+#' @param alternative
+#' @param type
+#' @param method
+#' @param simdist
+#' @param nsim
+#' @param seed
+#' @param sum_stats
+#' @param eda_plot
+#' @param inf_plot
+#' @param inf_lines
+#' @importFrom BHH2 dotPlot
+#' @export
 
 inference <- function(y, x = NULL, est = c("mean", "median", "proportion"), success = NULL, order = NULL, 
     conflevel = 0.95, siglevel = 0.05, null = NULL, alternative = c("less", "greater", "twosided"), 
