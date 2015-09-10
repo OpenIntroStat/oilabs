@@ -12,3 +12,7 @@ notifications:
   email:
     on_success: change
     on_failure: change
+
+r_binary_packages:
+ - BHH2
+ - HistData
