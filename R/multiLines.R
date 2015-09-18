@@ -1,3 +1,9 @@
+#' multiLines
+#' @description what does this do?
+#' @param model an \code{\link{lm}} object
+#' @param ... arguments passed to \code{\link[graphics]{abline}}
+#' @export
+
 multiLines <- function(model, ...){
   if(class(model)!="lm"){
     warning("Model must be the output of the function lm()")

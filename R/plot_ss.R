@@ -1,3 +1,12 @@
+#' plot_ss
+#' @description what does this do?
+#' @param x
+#' @param y
+#' @param showSquares
+#' @param leastSquares
+#' @export
+#' 
+
 plot_ss <- function(x, y, showSquares = FALSE, leastSquares = FALSE){
   plot(y~x, asp = 1)# xlab = paste(substitute(x)), ylab = paste(substitute(y)))
 
