@@ -157,7 +157,7 @@
 #'   catcher's interference.}
 #'   \item{new_slug}{Newer variable: slugging percentage, popular measure of the
 #'   power of a hitter calculated as the total bases divided by at bats.}
-#'   \item{new_obs}{Newer variable: on-base plus slugging, calculated as the sum of the on-base and slugging percentages.}
+#'   \item{new_ops}{Newer variable: on-base plus slugging, calculated as the sum of the on-base and slugging percentages.}
 #' }
 #' @source \href{http://www.mlb.com/}{mlb.com}
 "mlb11"
