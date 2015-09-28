@@ -176,3 +176,40 @@
 #' @source \href{http://www.wingia.com/web/files/richeditor/filemanager/Global_INDEX_of_Religiosity_and_Atheism_PR__6.pdf}{WIN-Gallup International Press Release}
 "atheism"
 
+#' Body Dimensions
+#'
+#' Body girth measurements and skeletal diameter measurements, as well as age,
+#' weight, height and gender, are given for 507 physically active individuals -
+#' 247 men and 260 women.
+#'
+#' @format A data frame with 507 rows and 25 variables.
+#' \describe{
+#'   \item{bia.di}{A numerical vector, respondent's biacromial diameter in centimeters.}
+#'   \item{bii.di}{A numerical vector, respondent's biiliac diameter (pelvic breadth) in centimeters.}
+#'   \item{bit.di}{A numerical vector, respondent's bitrochanteric diameter in centimeters.}
+#'   \item{che.de}{A numerical vector, respondent's chest depth in centimeters, measured between spine and sternum at nipple level, mid-expiration.}
+#'   \item{che.di}{A numerical vector, respondent's chest diameter in centimeters, measured at nipple level, mid-expiration.}
+#'   \item{elb.di}{A numerical vector, respondent's elbow diameter in centimeters, measured as sum of two elbows.}
+#'   \item{wri.di}{A numerical vector, respondent's wrist diameter in centimeters, measured as sum of two wrists.}
+#'   \item{kne.di}{A numerical vector, respondent's knee diameter in centimeters, measured as sum of two knees.}
+#'   \item{ank.di}{A numerical vector, respondent's ankle diameter in centimeters, measured as sum of two ankles.}
+#'   \item{sho.gi}{A numerical vector, respondent's shoulder girth in centimeters, measured over deltoid muscles.}
+#'   \item{che.gi}{A numerical vector, respondent's chest girth in centimeters, measured at nipple line in males and just above breast tissue in females, mid-expiration.}
+#'   \item{wai.gi}{A numerical vector, respondent's waist girth in centimeters, measured at the narrowest part of torso below the rib cage as average of contracted and relaxed position.}
+#'   \item{nav.gi}{A numerical vector, respondent's navel (abdominal) girth in centimeters, measured at umbilicus and iliac crest using iliac crest as a landmark.}
+#'   \item{hip.gi}{A numerical vector, respondent's hip girth in centimeters, measured at at level of bitrochanteric diameter.}
+#'   \item{thi.gi}{A numerical vector, respondent's thigh girth in centimeters, measured below gluteal fold as the average of right and left girths.}
+#'   \item{bic.gi}{A numerical vector, respondent's bicep girth in centimeters, measured when flexed as the average of right and left girths.}
+#'   \item{for.gi}{A numerical vector, respondent's forearm girth in centimeters, measured when extended, palm up as the average of right and left girths.}
+#'   \item{kne.gi}{A numerical vector, respondent's knee diameter in centimeters, measured as sum of two knees.}
+#'   \item{cal.gi}{A numerical vector, respondent's calf maximum girth in centimeters, measured as average of right and left girths.}
+#'   \item{ank.gi}{A numerical vector, respondent's ankle minimum girth in centimeters, measured as average of right and left girths.}
+#'   \item{wri.gi}{A numerical vector, respondent's wrist minimum girth in centimeters, measured as average of right and left girths.}
+#'   \item{age}{A numerical vector, respondent's age in years.}
+#'   \item{wgt}{A numerical vector, respondent's weight in kilograms.}
+#'   \item{hgt}{A numerical vector, respondent's height in centimeters.}
+#'   \item{sex}{A categorical vector, 1 if the respondent is male, 0 if female.}
+#' }
+#' @source \href{http://www.amstat.org/publications/jse/v11n2/datasets.heinz.html}{Heinz G, Peterson LJ, Johnson RW, Kerk CJ. 2003. Exploring Relationships in Body Dimensions. Journal of Statistics Education 11(2).}
+"bdims"
+
