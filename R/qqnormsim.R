@@ -9,7 +9,7 @@
 #' @param data data frame to use.
 #'
 #' @return A 3 x 3 grid of qqplots.
-qqnormsim <- function (sample, data) {
+qqnormsim <- function(sample, data) {
   y <- eval(substitute(sample), data)
   simnorm <- rnorm(n = length(y) * 8, mean = mean(y),
                    sd = sd(y))
