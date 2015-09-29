@@ -3,4 +3,5 @@
 export(inference)
 export(multiLines)
 export(plot_ss)
+export(qqnormsim)
 importFrom(BHH2,dotPlot)
