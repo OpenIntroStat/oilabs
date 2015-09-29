@@ -1,6 +1,16 @@
-qqnormsim <- function (x, data) {
-  y <- eval(substitute(x), data)
-  y = bdims$hgt
+#' Generate simulated QQ plots
+#'
+#' Create a 3 x 3 grid of quantile-quantile plot, the first of which corresponds
+#' to the input data. The other 8 plots arise from simulating random normal data
+#' with the same mean, standard deviation, and length as the data. For use in
+#' comparing known-normal qqplots to an observed qqplot to assess normality.
+#'
+#' @param sample the variable to be plotted.
+#' @param data data frame to use.
+#'
+#' @return A 3 x 3 grid of qqplots.
+qqnormsim <- function (sample, data) {
+  y <- eval(substitute(sample), data)
   simnorm <- rnorm(n = length(y) * 8, mean = mean(y),
                    sd = sd(y))
   df <- data.frame(x       = c(y, simnorm),
