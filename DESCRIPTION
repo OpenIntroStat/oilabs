@@ -15,7 +15,8 @@ Description: This R package provides a companion to the OpenIntro
 License: CC0
 LazyData: TRUE
 Imports:
-    BHH2
+    BHH2,
+    ggplot2
 Depends:
     R (>= 2.10)
 Suggests:

@@ -1,17 +1,24 @@
-#' qqnormsim
-#' @description what does this do?
-#' @param dat
+#' Generate simulated QQ plots
+#'
+#' Create a 3 x 3 grid of quantile-quantile plot, the first of which corresponds
+#' to the input data. The other eight plots arise from simulating random normal
+#' data with the same mean, standard deviation, and length as the data. For use
+#' in comparing known-normal qqplots to an observed qqplot to assess normality.
+#'
+#' @param sample the variable to be plotted.
+#' @param data data frame to use.
+#'
+#' @importFrom ggplot2 qplot
+#' @return A 3 x 3 grid of qqplots.
 #' @export
-#' 
-
-qqnormsim <- function(dat) {
-  par(mfrow = c(3, 3))
-  qqnorm(dat, main = "Normal QQ Plot (Data)")
-  qqline(dat)
-  for (i in 1:8) {
-    simnorm <- rnorm(n = length(dat), mean = mean(dat), sd = sd(dat))
-    qqnorm(simnorm, main = "Normal QQ Plot (Sim)")
-    qqline(simnorm)
-  }
-  par(mfrow = c(1, 1))
+qqnormsim <- function(sample, data) {
+  y <- eval(substitute(sample), data)
+  simnorm <- rnorm(n = length(y) * 8, mean = mean(y),
+                   sd = sd(y))
+  df <- data.frame(x       = c(y, simnorm),
+                   plotnum = rep(c("data", "sim 1", "sim 2",
+                                   "sim 3", "sim 4", "sim 5",
+                                   "sim 6", "sim 7", "sim 8"),
+                                 each = length(y)))
+  qplot(sample = x, data = df, stat = "qq", facets =  ~ plotnum)
 }

@@ -2,14 +2,22 @@
 % Please edit documentation in R/qqnormsim.R
 \name{qqnormsim}
 \alias{qqnormsim}
-\title{qqnormsim}
+\title{Generate simulated QQ plots}
 \usage{
-qqnormsim(dat)
+qqnormsim(sample, data)
 }
 \arguments{
-\item{dat}{}
+\item{sample}{the variable to be plotted.}
+
+\item{data}{data frame to use.}
+}
+\value{
+A 3 x 3 grid of qqplots.
 }
 \description{
-what does this do?
+Create a 3 x 3 grid of quantile-quantile plot, the first of which corresponds
+to the input data. The other eight plots arise from simulating random normal
+data with the same mean, standard deviation, and length as the data. For use
+in comparing known-normal qqplots to an observed qqplot to assess normality.
 }
 
