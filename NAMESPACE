@@ -2,7 +2,9 @@
 
 export(inference)
 export(multiLines)
+export(plot_ci)
 export(plot_ss)
 export(qqnormsim)
 import(BHH2)
 importFrom(BHH2,dotPlot)
+importFrom(ggplot2,qplot)

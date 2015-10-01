@@ -8,6 +8,7 @@
 #' @param sample the variable to be plotted.
 #' @param data data frame to use.
 #'
+#' @importFrom ggplot2 qplot
 #' @return A 3 x 3 grid of qqplots.
 #' @export
 qqnormsim <- function(sample, data) {
