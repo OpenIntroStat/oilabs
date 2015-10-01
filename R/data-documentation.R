@@ -213,3 +213,5 @@
 #' @source \href{http://www.amstat.org/publications/jse/v11n2/datasets.heinz.html}{Heinz G, Peterson LJ, Johnson RW, Kerk CJ. 2003. Exploring Relationships in Body Dimensions. Journal of Statistics Education 11(2).}
 "bdims"
 
+#' Housing prices in Ames, Iowa
+"ames"
