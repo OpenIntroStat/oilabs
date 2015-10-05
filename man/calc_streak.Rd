@@ -12,7 +12,7 @@ calc_streak(x)
 }
 \value{
 A vector of the streak lengths. A streak is defined as a series of
-  hits \code{"H"} followed by a miss \code{"M"}
+  hits \code{"H"} followed by a miss \code{"M"}.
 }
 \description{
 calc_streak
