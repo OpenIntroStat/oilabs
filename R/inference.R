@@ -118,7 +118,6 @@ FTail <- function(U = NULL, df_n = 100, df_d = 100, curveColor = 1, border = 1, 
 #' @param eda_plot
 #' @param inf_plot
 #' @param inf_lines
-#' @importFrom BHH2 dotPlot
 #' @export
 
 inference <- function(y, x = NULL, est = c("mean", "median", "proportion"), success = NULL, order = NULL, 
