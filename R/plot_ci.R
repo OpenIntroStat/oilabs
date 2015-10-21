@@ -1,8 +1,9 @@
 #' plot_ci
-#' @description what does this do?
-#' @param lo
-#' @param hi
-#' @param m
+#' @description This function takes vectors of upper and lower confidence interval bounds, 
+#' as well as poplutation mean, and plots which confidence intervals intersect the mean
+#' @param lo a vector of lower bounds for confidence intervals
+#' @param hi a vector of upper bounds for confidence intervals
+#' @param m the population mean
 #' @export
 #' 
 
@@ -21,14 +22,15 @@ plot_ci <- function(lo, hi, m) {
   for(i in 1:k){
     x <- mean(c(hi[i],lo[i]))
     ci <- c(lo[i],hi[i])
-    if(contains(lo[i],hi[i],m)==FALSE){
+    if((m < hi[i] & m > lo[i])==FALSE){
       col <- "#F05133"
       points(x, i, cex=1.4, col=col)
       #		  points(x, i, pch=20, cex=1.2, col=col)
       lines(ci, rep(i, 2), col=col, lwd=5)
+    } else{
+      col <- 1
+      points(x, i, pch=20, cex=1.2, col=col)
+      lines(ci, rep(i, 2), col=col)
     }
-    col <- 1
-    points(x, i, pch=20, cex=1.2, col=col)
-    lines(ci, rep(i, 2), col=col)
   }
 }
