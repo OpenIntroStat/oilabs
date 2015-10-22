@@ -9,7 +9,7 @@
 
 plot_ci <- function(lo, hi, m) {
   par(mar=c(2, 1, 1, 1), mgp=c(2.7, 0.7, 0))
-  k <- 50
+  k <- length(lo)
   ci.max <- max(rowSums(matrix(c(-1*lo,hi),ncol=2)))
   
   xR <- m + ci.max*c(-1, 1)
