@@ -215,3 +215,28 @@
 
 #' Housing prices in Ames, Iowa
 "ames"
+
+#' North Carolina Births
+#'
+#' Data set on 1,000 randomly sampled births from the birth records released by
+#' the state of North Carolina in 2004. This data set has been of interest to
+#' medical researchers who are studying the relation between habits and practices
+#' of expectant mothers and the birth of their children.
+#'
+#' @format A dataframe with 100 rows and 13 variables.
+#' \describe{
+#'   \item{fage}{A numerical vector, father's age in years.}
+#'   \item{mage}{A numerical vector, mother's age in years.}
+#'   \item{mature}{Maturity status of mother.}
+#'   \item{weeks}{A numerical vector, length of pregnancy in weeks.}
+#'   \item{premie}{A categorical vector, whether the birth was classified as premature (premie) or full-term.}
+#'   \item{visits}{Number of hospital visits during pregnancy.}
+#'   \item{marital}{Whether mother is married or not married at birth.}
+#'   \item{gained}{A numerical vector, weight gained by mother during pregnancy in pounds.}
+#'   \item{weight}{A numerical vector, weight of the baby at birth in pounds}
+#'   \item{lowbirthweight}{A categorical vector, whether baby was classified as low birthweight (low) or not (not low).}
+#'   \item{gender}{Gender of the baby, female or male.}
+#'   \item{habit}{A categorical vector, status of the mother as a nonsmoker or a smoker.}
+#'   \item{whitemom}{A categorical vector, whether mom is white or not white.}
+#' }
+"nc"
