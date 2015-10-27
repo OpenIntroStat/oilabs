@@ -7,13 +7,14 @@
 plot_ci(lo, hi, m)
 }
 \arguments{
-\item{lo}{}
+\item{lo}{a vector of lower bounds for confidence intervals}
 
-\item{hi}{}
+\item{hi}{a vector of upper bounds for confidence intervals}
 
-\item{m}{}
+\item{m}{the population mean}
 }
 \description{
-what does this do?
+This function takes vectors of upper and lower confidence interval bounds,
+as well as poplutation mean, and plots which confidence intervals intersect the mean
 }
 
