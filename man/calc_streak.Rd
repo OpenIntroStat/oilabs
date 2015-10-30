@@ -4,15 +4,20 @@
 \alias{calc_streak}
 \title{calc_streak}
 \usage{
-calc_streak(x)
+calc_streak(x, streakvar = "H")
 }
 \arguments{
-\item{x}{A sequence of \code{"H"} and \code{"M"} values indicating a sequence
-  of hit or missed shots.}
+\item{x}{A sequence of two values (default is  \code{"H"} and \code{"M"}) indicating a sequence
+  of possible outcomes for a binary variable. For example,  \code{"H"} and \code{"M"} could indicate
+  hits and misses in basketball shots, or \code{"heads"} and \code{"tails"} could indicate coin flips.}
+
+\item{streakvar}{The value that you are interested in studying. Defaults to \code{"H"} but could be
+ changed to \code{"heads"} or whatever other response you were interested in studying.}
 }
 \value{
 A vector of the streak lengths. A streak is defined as a series of
-  hits \code{"H"} followed by a miss \code{"M"}.
+  of repeated instances of the \code{streakvar}, followed by the other binary outcome.
+  For example, a series of hits (\code{"H"}) followed by a miss (\code{"M"}).
 }
 \description{
 calc_streak
