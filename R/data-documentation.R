@@ -223,7 +223,7 @@
 #' medical researchers who are studying the relation between habits and practices
 #' of expectant mothers and the birth of their children.
 #'
-#' @format A dataframe with 100 rows and 13 variables.
+#' @format A dataframe with 1000 rows and 13 variables.
 #' \describe{
 #'   \item{fage}{A numerical vector, father's age in years.}
 #'   \item{mage}{A numerical vector, mother's age in years.}

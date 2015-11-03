@@ -4,7 +4,7 @@
 \name{nc}
 \alias{nc}
 \title{North Carolina Births}
-\format{A dataframe with 100 rows and 13 variables.
+\format{A dataframe with 1000 rows and 13 variables.
 \describe{
   \item{fage}{A numerical vector, father's age in years.}
   \item{mage}{A numerical vector, mother's age in years.}
