@@ -4,18 +4,23 @@
 \alias{plot_ss}
 \title{plot_ss}
 \usage{
-plot_ss(x, y, showSquares = FALSE, leastSquares = FALSE)
+plot_ss(x, y, data, showSquares = FALSE, leastSquares = FALSE)
 }
 \arguments{
-\item{x}{}
+\item{x}{the name of numerical vector 1}
 
-\item{y}{}
+\item{y}{the name of numerical vector 2}
 
-\item{showSquares}{}
+\item{data}{the dataframe in which x and y can be found}
 
-\item{leastSquares}{}
+\item{showSquares}{logical option to show boxes representing the squared residuals}
+
+\item{leastSquares}{logical option to bypass point entry and automatically draw the least squares line}
 }
 \description{
-what does this do?
+An interactive function that will generate a scatterplot of two variables, then
+allow the user to click the plot in two locations to draw a best fit line.
+Residuals are drawn by default; boxes representing the squared residuals are
+optional.
 }
 

@@ -1,17 +1,25 @@
 #' plot_ss
-#' @description what does this do?
-#' @param x
-#' @param y
-#' @param showSquares
-#' @param leastSquares
+#'
+#' An interactive function that will generate a scatterplot of two variables, then
+#' allow the user to click the plot in two locations to draw a best fit line.
+#' Residuals are drawn by default; boxes representing the squared residuals are
+#' optional.
+#'
+#' @param x the name of numerical vector 1
+#' @param y the name of numerical vector 2
+#' @param data the dataframe in which x and y can be found
+#' @param showSquares logical option to show boxes representing the squared residuals
+#' @param leastSquares logical option to bypass point entry and automatically draw the least squares line
 #' @export
-#' 
+#'
 
-plot_ss <- function(x, y, showSquares = FALSE, leastSquares = FALSE){
-  plot(y~x, asp = 1)# xlab = paste(substitute(x)), ylab = paste(substitute(y)))
+plot_ss <- function(x, y, data, showSquares = FALSE, leastSquares = FALSE){
+  x <- eval(substitute(x), data)
+  y <- eval(substitute(y), data)
+  plot(y ~ x, asp = 1, pch = 16)# xlab = paste(substitute(x)), ylab = paste(substitute(y)))
 
   if(leastSquares){
-    m1 <- lm(y~x)
+    m1 <- lm(y ~ x)
     y.hat <- m1$fit
   } else{
     cat("Click two points to make a line.")
