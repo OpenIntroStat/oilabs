@@ -11,9 +11,9 @@
   \item{game}{A numerical vector, game in the 2009 NBA finals}
   \item{quarter}{A categorical vector, quarter in the game, OT stands for
   overtime}
-  \item{time}{A categorical vector, time at which Kobe took a shot}
-  \item{description}{A categorical vector, description of the shot}
-  \item{basket}{A categorical vector, H if the shot was a hit, M if the shot
+  \item{time}{A character vector, time at which Kobe took a shot}
+  \item{description}{A character vector, description of the shot}
+  \item{shot}{A categorical vector, H if the shot was a hit, M if the shot
   was a miss}
 }}
 \usage{

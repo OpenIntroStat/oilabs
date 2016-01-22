@@ -8,18 +8,17 @@
 \describe{
    \item{genhlth}{A categorical vector indicating general health, with
    categories excellent, very good, good, fair, and poor}
-   \item{exerany}{A logical vector, TRUE if the respondent exercised in
+   \item{exerany}{A categorical vector, TRUE if the respondent exercised in
    the past month and FALSE otherwise}
-   \item{hlthplan}{A logical vector, TRUE if the respondent has some form
+   \item{hlthplan}{A categorical vector, TRUE if the respondent has some form
    of health coverage and FALSE otherwise}
-   \item{smoke100}{A logical vector, TRUE if the respondent has smoked at
+   \item{smoke100}{A categorical vector, TRUE if the respondent has smoked at
    least 100 cigarettes in their entire life and FALSE otherwise}
    \item{height}{A numerical vector, respondent's height in inches}
    \item{weight}{A numerical vector, respondent's weight in pounds}
    \item{wtdesire}{A numerical vector, respondent's desired weight in pounds}
    \item{age}{A numerical vector, respondent's age in years}
-   \item{gender}{A numerical vector, m if the respondent is male and f if the
-respondent is female}
+   \item{gender}{A numerical vector, respondent's gender}
 }}
 \source{
 These data are excerpted from the Behavioral Risk Factor Surveillance
@@ -30,6 +29,11 @@ System survey conducted by the CDC. For more information, see the
 cdc
 }
 \description{
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
 This data set is a random sample of 20,000 people from the Behavioral Risk
 Factor Surveillance System (BRFSS) survey conducted in 2000. While there
 are over 200 questions or variables in the original data set, this one
