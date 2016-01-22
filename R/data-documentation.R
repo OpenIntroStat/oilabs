@@ -9,7 +9,7 @@
 #' we might also wonder if this could be due to chance, or whether it meant
 #' the birth ratio was not actually 1:1.
 #'
-#' @format A data frame with 82 rows and 3 variables:
+#' @format A tbl_df with with 82 rows and 3 variables:
 #' \describe{
 #'   \item{year}{year, ranging from 1629 to 1710}
 #'   \item{boys}{number of male christenings (births)}
@@ -21,10 +21,10 @@
 
 #' Male and female births in the US
 #'
-#' Counts of the total number of male and femals births in the United States from
+#' Counts of the total number of male and female births in the United States from
 #' 1940 to 2013.
 #'
-#' @format A data frame with 74 rows and 3 variables:
+#' @format A tbl_df with 74 rows and 3 variables:
 #' \describe{
 #'   \item{year}{year, ranging from 1940 to 2013}
 #'   \item{boys}{number of male births}
