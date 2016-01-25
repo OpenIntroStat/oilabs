@@ -1,0 +1,5 @@
+name: R Markdown Lab Report
+description: >
+ Template for creating labs from Open Intro textbook
+create_dir: true
+
