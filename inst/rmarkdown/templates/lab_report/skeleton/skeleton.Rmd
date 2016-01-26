@@ -10,16 +10,12 @@ output: oilabs::lab_report
 knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
 library(ggplot2)
+library(oilabs)
 ```
 
 * * *
 
 ## Lab report
-
-**Load Arbuthnot data**
-```{r}
-load(url("https://stat.duke.edu/~mc301/data/arbuthnot.RData"))
-```
 
 #### Exercise 1: 
 
@@ -45,11 +41,6 @@ arbuthnot$girls
 * * *
 
 ### On your own:
-
-**Load present day data**
-```{r}
-load(url("https://stat.duke.edu/~mc301/data/present.RData"))
-```
 
 #### 1:
 
