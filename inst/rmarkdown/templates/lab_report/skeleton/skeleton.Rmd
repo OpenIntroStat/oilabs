@@ -1,6 +1,6 @@
 ---
 title: "Lab 1 - Intro to R and RStudio"
-author: "Team name"
+author: "Name"
 date: "Date of lab session"
 output: oilabs::lab_report
 ---
@@ -66,21 +66,3 @@ load(url("https://stat.duke.edu/~mc301/data/present.RData"))
 #### 4:
 
 
-
-* * *
-
-## Teamwork report
-
-<!--
-For each team member, write their name, whether they attended the lab session, 
-whether they were the author for this week, and their contribution to the lab 
-report (as a percentage). The percentages should add up to 100.
--->
-
-| Team member             | Attendance | Author   | Contribution % |
-|:------------------------|:----------:|:--------:|---------------:|
-| Name of member 1        | Yes / No   | Yes / No | 25%            |
-| Name of member 2        | Yes / No   | Yes / No | 25%            |
-| Name of member 3        | Yes / No   | Yes / No | 25%            |
-| Name of member 4        | Yes / No   | Yes / No | 25%            |
-| Total                   |            |          | 100%           |
