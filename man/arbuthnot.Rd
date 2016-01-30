@@ -4,7 +4,7 @@
 \name{arbuthnot}
 \alias{arbuthnot}
 \title{Male and female births in London}
-\format{A data frame with 82 rows and 3 variables:
+\format{A tbl_df with with 82 rows and 3 variables:
 \describe{
   \item{year}{year, ranging from 1629 to 1710}
   \item{boys}{number of male christenings (births)}

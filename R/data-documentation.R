@@ -9,7 +9,7 @@
 #' we might also wonder if this could be due to chance, or whether it meant
 #' the birth ratio was not actually 1:1.
 #'
-#' @format A data frame with 82 rows and 3 variables:
+#' @format A tbl_df with with 82 rows and 3 variables:
 #' \describe{
 #'   \item{year}{year, ranging from 1629 to 1710}
 #'   \item{boys}{number of male christenings (births)}
@@ -21,22 +21,30 @@
 
 #' Male and female births in the US
 #'
-#' Counts of the total number of male and femals births in the United States from
-#' 1940 to 2002.
+#' Counts of the total number of male and female births in the United States from
+#' 1940 to 2013.
 #'
-#' @format A data frame with 63 rows and 3 variables:
+#' @format A tbl_df with 74 rows and 3 variables:
 #' \describe{
-#'   \item{year}{year, ranging from 1940 to 2002}
+#'   \item{year}{year, ranging from 1940 to 2013}
 #'   \item{boys}{number of male births}
 #'   \item{girls}{number of female births}
 #' }
-#' @source These data appear in Mathews TJ, and Hamilton BE. 2005. Trend
+#' @source Data up to 2002 appear in Mathews TJ, and Hamilton BE. 2005. Trend
 #' analysis of the sex ratio at birth in the United States. National Vital
-#' Statistics Reports 53(20):1-17.
+#' Statistics Reports 53(20):1-17. Data for 2003 - 20013 have been collected
+#' from annual National Vital Statistics Reports published by the US Department of 
+#' Health and Human Services, Centers for Disease Control and Prevention, 
+#' National Center for Health Statistics.
 "present"
 
 #' Behavioral survey
 #'
+#' This data set is a random sample of 20,000 people from the Behavioral Risk
+#' This data set is a random sample of 20,000 people from the Behavioral Risk
+#' This data set is a random sample of 20,000 people from the Behavioral Risk
+#' This data set is a random sample of 20,000 people from the Behavioral Risk
+#' This data set is a random sample of 20,000 people from the Behavioral Risk
 #' This data set is a random sample of 20,000 people from the Behavioral Risk
 #' Factor Surveillance System (BRFSS) survey conducted in 2000. While there
 #' are over 200 questions or variables in the original data set, this one
@@ -56,12 +64,12 @@
 #' \describe{
 #'    \item{genhlth}{A categorical vector indicating general health, with
 #'    categories excellent, very good, good, fair, and poor}
-#'    \item{exerany}{A categorical vector, 1 if the respondent exercised in
-#'    the past month and 0 otherwise}
-#'    \item{hlthplan}{A categorical vector, 1 if the respondent has some form
-#'    of health coverage and 0 otherwise}
-#'    \item{smoke100}{A categorical vector, 1 if the respondent has smoked at
-#'    least 100 cigarettes in their entire life and 0 otherwise}
+#'    \item{exerany}{A categorical vector, TRUE if the respondent exercised in
+#'    the past month and FALSE otherwise}
+#'    \item{hlthplan}{A categorical vector, TRUE if the respondent has some form
+#'    of health coverage and FALSE otherwise}
+#'    \item{smoke100}{A categorical vector, TRUE if the respondent has smoked at
+#'    least 100 cigarettes in their entire life and FALSE otherwise}
 #'    \item{height}{A numerical vector, respondent's height in inches}
 #'    \item{weight}{A numerical vector, respondent's weight in pounds}
 #'    \item{wtdesire}{A numerical vector, respondent's desired weight in pounds}
@@ -72,6 +80,32 @@
 #' System survey conducted by the CDC. For more information, see the
 #' \href{http://www.cdc.gov/brfss/}{BRFSS Web site}.
 "cdc"
+
+#' Flights data
+#'
+#' On-time data for a random sample of flights that departed NYC (i.e. JFK, LGA or EWR) 
+#' in 2013.
+#'
+#' @source Hadley Wickham (2014). \code{nycflights13}: Data about flights departing 
+#' NYC in 2013. R package version 0.1. 
+#'  \url{https://CRAN.R-project.org/package=nycflights13}
+#' @format A tbl_df with 32,735 rows and 16 variables:
+#' \describe{
+#' \item{year,month,day}{Date of departure}
+#' \item{dep_time,arr_time}{Departure and arrival times, local tz.}
+#' \item{dep_delay,arr_delay}{Departure and arrival delays, in minutes.
+#'   Negative times represent early departures/arrivals.}
+#' \item{hour,minute}{Time of departure broken in to hour and minutes}
+#' \item{carrier}{Two letter carrier abbreviation. See \code{airlines} in the
+#'   \code{nycflights13} package for more information}
+#' \item{tailnum}{Plane tail number}
+#' \item{flight}{Flight number}
+#' \item{origin,dest}{Origin and destination. See \code{airports} in the
+#'   \code{nycflights13} package for more information, or google airport the code.}
+#' \item{air_time}{Amount of time spent in the air}
+#' \item{distance}{Distance flown}
+#' }
+"nycflights"
 
 #' Kobe Bryant basketball performance
 #'
@@ -90,9 +124,9 @@
 #'   \item{game}{A numerical vector, game in the 2009 NBA finals}
 #'   \item{quarter}{A categorical vector, quarter in the game, OT stands for
 #'   overtime}
-#'   \item{time}{A categorical vector, time at which Kobe took a shot}
-#'   \item{description}{A categorical vector, description of the shot}
-#'   \item{basket}{A categorical vector, H if the shot was a hit, M if the shot
+#'   \item{time}{A character vector, time at which Kobe took a shot}
+#'   \item{description}{A character vector, description of the shot}
+#'   \item{shot}{A categorical vector, H if the shot was a hit, M if the shot
 #'   was a miss}
 #' }
 "kobe"
@@ -215,28 +249,3 @@
 
 #' Housing prices in Ames, Iowa
 "ames"
-
-#' North Carolina Births
-#'
-#' Data set on 1,000 randomly sampled births from the birth records released by
-#' the state of North Carolina in 2004. This data set has been of interest to
-#' medical researchers who are studying the relation between habits and practices
-#' of expectant mothers and the birth of their children.
-#'
-#' @format A dataframe with 1000 rows and 13 variables.
-#' \describe{
-#'   \item{fage}{A numerical vector, father's age in years.}
-#'   \item{mage}{A numerical vector, mother's age in years.}
-#'   \item{mature}{Maturity status of mother.}
-#'   \item{weeks}{A numerical vector, length of pregnancy in weeks.}
-#'   \item{premie}{A categorical vector, whether the birth was classified as premature (premie) or full-term.}
-#'   \item{visits}{Number of hospital visits during pregnancy.}
-#'   \item{marital}{Whether mother is married or not married at birth.}
-#'   \item{gained}{A numerical vector, weight gained by mother during pregnancy in pounds.}
-#'   \item{weight}{A numerical vector, weight of the baby at birth in pounds}
-#'   \item{lowbirthweight}{A categorical vector, whether baby was classified as low birthweight (low) or not (not low).}
-#'   \item{gender}{Gender of the baby, female or male.}
-#'   \item{habit}{A categorical vector, status of the mother as a nonsmoker or a smoker.}
-#'   \item{whitemom}{A categorical vector, whether mom is white or not white.}
-#' }
-"nc"

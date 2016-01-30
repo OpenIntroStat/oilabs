@@ -8,12 +8,12 @@
 \describe{
    \item{genhlth}{A categorical vector indicating general health, with
    categories excellent, very good, good, fair, and poor}
-   \item{exerany}{A categorical vector, 1 if the respondent exercised in
-   the past month and 0 otherwise}
-   \item{hlthplan}{A categorical vector, 1 if the respondent has some form
-   of health coverage and 0 otherwise}
-   \item{smoke100}{A categorical vector, 1 if the respondent has smoked at
-   least 100 cigarettes in their entire life and 0 otherwise}
+   \item{exerany}{A categorical vector, TRUE if the respondent exercised in
+   the past month and FALSE otherwise}
+   \item{hlthplan}{A categorical vector, TRUE if the respondent has some form
+   of health coverage and FALSE otherwise}
+   \item{smoke100}{A categorical vector, TRUE if the respondent has smoked at
+   least 100 cigarettes in their entire life and FALSE otherwise}
    \item{height}{A numerical vector, respondent's height in inches}
    \item{weight}{A numerical vector, respondent's weight in pounds}
    \item{wtdesire}{A numerical vector, respondent's desired weight in pounds}
@@ -29,6 +29,11 @@ System survey conducted by the CDC. For more information, see the
 cdc
 }
 \description{
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
+This data set is a random sample of 20,000 people from the Behavioral Risk
 This data set is a random sample of 20,000 people from the Behavioral Risk
 Factor Surveillance System (BRFSS) survey conducted in 2000. While there
 are over 200 questions or variables in the original data set, this one
