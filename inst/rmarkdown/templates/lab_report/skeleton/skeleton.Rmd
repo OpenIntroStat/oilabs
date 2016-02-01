@@ -1,0 +1,59 @@
+---
+title: "Lab 1 - Intro to R and RStudio"
+author: "Name"
+date: "Date of lab session"
+output: oilabs::lab_report
+---
+
+```{r setup, include=FALSE}
+# DO NOT ALTER CODE IN THIS CHUNK
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+```
+
+* * *
+
+## Lab report
+
+#### Exercise 1: 
+
+```{r}
+# code for Exercise 1 is already entered below as an example
+arbuthnot$girls
+```
+
+#### Exercise 2:
+
+[Enter your response for Exercise 2 here.]
+
+```{r}
+# enter your code for Exercise 2 here
+```
+
+#### Exercise 3:
+
+```{r}
+# enter your code for Exercise 3 here
+```
+
+* * *
+
+### On your own:
+
+#### 1:
+
+
+
+#### 2:
+
+
+
+#### 3:
+
+
+
+#### 4:
+
+
