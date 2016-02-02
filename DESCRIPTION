@@ -1,13 +1,14 @@
 Package: oilabs
 Type: Package
 Title: R Package Companion to OpenIntro Labs
-Version: 0.1.1.9002
-Date: 2015-09-08
+Version: 0.1.1.9003
+Date: 2016-02-01
 Authors@R: as.person(c(
     "Andrew Bray <andrew@openintro.org> [aut, cre]",
     "Mine Cetinkaya-Rundel <mine@stat.duke.edu> [aut]",
     "Albert Y. Kim <albert.ys.kim@gmail.com> [aut]",
-    "Ben Baumer <ben.baumer@gmail.com> [aut]"
+    "Ben Baumer <ben.baumer@gmail.com> [aut]",
+    "Chester Ismay <cismay@reed.edu> [aut]"
   ))
 Description: This R package provides a companion to the OpenIntro
     labs (https://www.openintro.org/stat/labs.php). It contains data sets and
