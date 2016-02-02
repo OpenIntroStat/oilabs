@@ -19,8 +19,7 @@ library(oilabs)
 #### Exercise 1: 
 
 ```{r}
-# code for Exercise 1 is already entered below as an example
-arbuthnot$girls
+
 ```
 
 * * *
