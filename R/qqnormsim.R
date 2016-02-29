@@ -20,5 +20,5 @@ qqnormsim <- function(sample, data) {
                                    "sim 3", "sim 4", "sim 5",
                                    "sim 6", "sim 7", "sim 8"),
                                  each = length(y)))
-  qplot(sample = x, data = df, stat = "qq", facets =  ~ plotnum)
+  qplot(sample = x, data = df, facets =  ~ plotnum) + stat_qq()
 }
