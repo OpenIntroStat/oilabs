@@ -57,9 +57,6 @@ Select the best **choice**.  Please bold your answer by added two astericks befo
     - A null hypothesis that $\mu$ = 24 is rejected at $\alpha$ = 5%.
     - Both (a) and (b) are true.
   
-  
-
-  
 6. Using data from a random sample from a population, we construct both a 95% confidence interval and a 90% confidence interval for the population mean.  How will these intervals differ?
   
 	  - The 90% interval will be wider than the 95% interval.
@@ -70,7 +67,7 @@ Select the best **choice**.  Please bold your answer by added two astericks befo
   
 7. What type of plot would you use to visualize the relationship between
   the weight of pizza (in grams) individual Reed students consumed over the 
-  next week and class year (i.e. `16, `17, `18, `19)?
+  next week and class year (i.e. '16, '17, '18, '19)?
     
     - Stacked barchart
     - Histogram
@@ -109,7 +106,7 @@ For the following questions,
  - name an appropriate visualization for the sample data corresponding to the problem set-up.
 
     
-10. In the paper ``Outcomes at School Age After Postnatal Dexamethasone
+10. In the paper "Outcomes at School Age After Postnatal Dexamethasone
 Therapy for Lung Disease of Prematurity," T. Yeh et al. studied the outcomes at
 school age in children who had participated in a double-blind, placebo-controlled
 trial of early postnatal dexamethasone therapy for the prevention of chronic lung
@@ -124,7 +121,10 @@ dexamethasone therapy has, on average, an effect on IQ?
 
 11. A study was conducted in which 14 subjects drank 240 mL per
 day of orange juice fortified with 1000 IU of vitamin D. Concentration levels were recorded
-at the beginning of the experiment and again at the end of 12 weeks. Based on the results of the study, the average serum 25(OH)D concentration before the treatment was 37 nanometers/liter and after the treatment was 94 nanometers/liter.  Do the data provide sufficient evidence to conclude that, on average, drinking fortified orange juice changes the serum 25(OH)D concentration in the blood?
+at the beginning of the experiment and again at the end of 12 weeks. Based on the results of the study, 
+the average serum 25(OH)D concentration before the treatment was 37 nanometers/liter and after
+the treatment was 94 nanometers/liter.  Do the data provide sufficient evidence to conclude that,
+on average, drinking fortified orange juice changes the serum 25(OH)D concentration in the blood?
 
 * * *
 
@@ -140,14 +140,20 @@ the RDA of iron?
 * * *
 
 13. In a February 2013 Quinnipiac University poll the following question about a typical practice of
-the New York Police Department was asked to a random sample of New York City voters. ``As you may
+the New York Police Department was asked to a random sample of New York City voters. "As you may
 know, there is a police practice known as stop and frisk, where police stop and question a person they
 suspect of wrongdoing and, if necessary search that person. Do you approve or disapprove of this police
-practice?" Of the 232 surveyed between 18-34 years old, 68 approved, of the 332 between 35-54 years old, 128 approved, and of those 338 older than 55, 173 approved.  Does an association with age and whether or not someone approves of stop and frisk exist? 
+practice?" Of the 232 surveyed between 18-34 years old, 68 approved, of the 332 between 35-54 years old, 
+128 approved, and of those 338 older than 55, 173 approved.  Does an association with age and whether
+or not someone approves of stop and frisk exist? 
 
 * * *
 
-14. According to a recent study, taller women have a significantly higher risk of developing some form of cancer.  The American Cancer Society reports that approximately 38% of all women develop some form of cancer in their lifetime.  A long-term Canadian study was conducted involving 1250 tall women between the ages of 50 and 79, and 502 developed some form of cancer.  Is there any evidence to suggest that the proportion of taller women who develop cancer is at a higher or lower proportion than 38%?
+14. According to a recent study, taller women have a significantly higher risk of developing some form of cancer.
+The American Cancer Society reports that approximately 38% of all women develop some form of cancer in their lifetime.
+A long-term Canadian study was conducted involving 1250 tall women between the ages of 50 and 79, and 502 developed
+some form of cancer.  Is there any evidence to suggest that the proportion of taller women who develop cancer
+is at a higher or lower proportion than 38%?
 
 * * *
 
@@ -194,11 +200,18 @@ evaluate a subset of the study population.
   - The statistician states that the experiment and hypotheses were not designed to
   assess potential harm. Please write out the corresponding null and alternative hypotheses.
   
-  - Based on a $p$-value of 0.029 and $\alpha = 0.04$, what decision did the researchers come to regarding the null hypothesis? What type of error could they have conceivably made and with what probability?
+  - Based on a $p$-value of 0.029 and $\alpha = 0.04$, what decision did the researchers come to regarding
+  the null hypothesis? What type of error could they have conceivably made and with what probability?
 
 * * *
 
-17. To understand the effect of a dirty air filter on gasoline mileage, suppose we take a random sample of 10 cars and measure the miles per gallon they get when driven with a clean air filter and with a dirty air filter.  Suppose that we have properly designed this study: that the order in which the cars receive a clean or dirty air filter is determined by random assignment, that the dirty filters are equally dirty in each car, that the filters are the same brand, and that the cars are driven under the same conditions when the gasoline mileage is measured.   The table given below shows the results of the testing.
+17. To understand the effect of a dirty air filter on gasoline mileage, suppose we take a random sample
+of 10 cars and measure the miles per gallon they get when driven with a clean air filter and with a
+dirty air filter.  Suppose that we have properly designed this study: that the order in which the cars
+receive a clean or dirty air filter is determined by random assignment, that the dirty filters are
+equally dirty in each car, that the filters are the same brand, and that the cars are driven under
+the same conditions when the gasoline mileage is measured.   The table given below shows the results
+of the testing.
   
 --------------------------------------------------------------
   Car ID     clean filter   dirty filter   difference
@@ -223,7 +236,7 @@ evaluate a subset of the study population.
     
     10            30.9         29.0          1.9  
   
-______________________________________________________
+______________________________________________________________
   
 $\bar{x}$     **25.08**     **24.25**     **0.83** 
     
@@ -234,10 +247,16 @@ $\bar{x}$     **25.08**     **24.25**     **0.83**
 - How many independent observations are in this dataset?
 
 
-- Does there appear to be a difference between the gasoline mileage obtained when cars have clean air filters and when they have dirty air filters at the 10% level?  Give complete statistical evidence to support your answer, including the hypotheses, test statistic, degrees of freedom, _approximate_ $p$-value, an interpretation of your results, and a check of the conditions needed for validity.  (Use the R results at the bottom of this question to answer the question.)
+- Does there appear to be a difference between the gasoline mileage obtained when cars
+have clean air filters and when they have dirty air filters at the 10% level?  Give
+complete statistical evidence to support your answer, including the hypotheses, test
+statistic, degrees of freedom, _approximate_ $p$-value, an interpretation of your results,
+and a check of the conditions needed for validity.  (Use the R results at the bottom of this
+question to answer the question.)
   
 
-- Give a 95% confidence interval for the magnitude of the average difference and provide an interpretation of the interval.
+- Give a 95% confidence interval for the magnitude of the average difference and
+provide an interpretation of the interval.
   
 
 ```{r t_output}
@@ -252,7 +271,11 @@ qt(c(0.1, 0.05, 0.025, 0.001, 0.005), df = 30, lower.tail = FALSE)
 
 * * *
 
-18. After a spirited column in the _Reed College Quest_, the college is considering changing its mascot from the griffin to the Doyle owl.  A simple random sample of 100 alumni from the population of all living alumni was taken.  Sixty-four of the alumni in the sample were in favor of adopting the owl.  Let $p$ represent the true proportion of alumni who favor adopting the owl.
+18. After a spirited column in the _Reed College Quest_, the college is considering changing
+its mascot from the griffin to the Doyle owl.  A simple random sample of 100 alumni from the
+population of all living alumni was taken.  Sixty-four of the alumni in the sample were in
+favor of adopting the owl.  Let $p$ represent the true proportion of alumni who favor
+adopting the owl.
   
   - Based on our sample, write down the value of $\hat{p}$, our point estimate for $p$.
   
@@ -260,7 +283,8 @@ qt(c(0.1, 0.05, 0.025, 0.001, 0.005), df = 30, lower.tail = FALSE)
   - Why might we want to provide an interval estimate (i.e. a confidence interval) instead?
   
   
-  - Form a 95% confidence interval for $p$ under the assumption that $\hat{p}$ is normally distributed with a standard error of 0.048.
+  - Form a 95% confidence interval for $p$ under the assumption that $\hat{p}$ is normally
+  distributed with a standard error of 0.048.
   
   
   - Provide an interpretation for the confidence interval in context.
@@ -268,7 +292,14 @@ qt(c(0.1, 0.05, 0.025, 0.001, 0.005), df = 30, lower.tail = FALSE)
 
 * * *    
     
-19. Recall the study from Midterm I, where the use of bed nets was associated with a lower prevalence of malarial infections in the Gambia.  Specifically, they considered a simple random sample of 154 people in the city of Banjul.  The full study actually recorded data on three sleeping options: subjects that slept with no net, those that slept under a normal bed net, and those that slept under a bed net treated with permethrin (an insecticide).  Again, the health outcome was whether the subject had a malarial infection at any point in the past. Let $\hat{p}_{no \, net}$ denote the proportion in the sample of those who slept with no net who contracted malaria, and $\hat{p}_{bed \, net}$ denote the corresponding proportion for those who slept under a regular bed net. 
+19. Recall the study from Midterm I, where the use of bed nets was associated with a lower
+prevalence of malarial infections in the Gambia.  Specifically, they considered a simple random
+sample of 154 people in the city of Banjul.  The full study actually recorded data on three sleeping
+options: subjects that slept with no net, those that slept under a normal bed net, and those that
+slept under a bed net treated with permethrin (an insecticide).  Again, the health outcome was whether
+the subject had a malarial infection at any point in the past. Let $\hat{p}_{no \, net}$ denote the
+proportion in the sample of those who slept with no net who contracted malaria, and 
+$\hat{p}_{bed \, net}$ denote the corresponding proportion for those who slept under a regular bed net. 
 
 ----------------------------------------------------
                     healthy          infected
@@ -282,19 +313,30 @@ permethrin net      18             20
 ----------------------------------------------------
 
 
-  - On Midterm I, we compared the association between the health variable and the sleeping variable by considering the test statistic $\hat{p}_{no \, net} - \hat{p}_{bed \, net}$.  To perform inference on that statistic, we approximated its sampling distribution using randomization.  If randomization was not possible, what distribution could we use as a mathematical approximation to this sampling distribution?  What conditions would we need to check?
+  - On Midterm I, we compared the association between the health variable and the sleeping variable
+  by considering the test statistic $\hat{p}_{no \, net} - \hat{p}_{bed \, net}$.  To perform inference
+  on that statistic, we approximated its sampling distribution using randomization.  If randomization was
+  not possible, what distribution could we use as a mathematical approximation to this sampling distribution?
+  What conditions would we need to check?
   
   
-  - In this full data set with a third category to consider in the sleeping variable, what test statistic could we use to assess the association between the sleeping variable and the health variable?  What conditions would we need to check (no need to do the actual computation)?
+  - In this full data set with a third category to consider in the sleeping variable, what test statistic
+  could we use to assess the association between the sleeping variable and the health variable?  What
+  conditions would we need to check (no need to do the actual computation)?
   
-  - Why do we bother with checking conditions when we do this kind of statistical inference?  What happens if the conditions don't appear to be met?
+  - Why do we bother with checking conditions when we do this kind of statistical inference?  What happens 
+  if the conditions don't appear to be met?
   
 
 
 * * *
 
 
-20. Many studies have suggested that there is a link between exercise and healthy bones. One study examined the effect of jumping on the bone density of growing rats.  There were three treatments: a control with no jumping, a low-jump condition, and a high-jump condition.  Rats were randomly assigned to treatment group.  After 8 weeks of 10 jumps per day on 5 days per week, the bone density of the rats (expressed in mg/cm3) was measured.  A one-way ANOVA was performed on the data as shown below.
+20. Many studies have suggested that there is a link between exercise and healthy bones. One study examined
+the effect of jumping on the bone density of growing rats.  There were three treatments: a control with no
+jumping, a low-jump condition, and a high-jump condition.  Rats were randomly assigned to treatment group.
+After 8 weeks of 10 jumps per day on 5 days per week, the bone density of the rats (expressed in mg/cm3)
+was measured.  A one-way ANOVA was performed on the data as shown below.
 
 ```{r get_data, echo=FALSE, message=FALSE}
 set.seed(223)
@@ -334,8 +376,6 @@ qqline(residuals(mdl))
 
 
 - State the null and alternative hypotheses tested by the ANOVA.  Be sure to define any symbols you use.
-
-
 
 
 - Are the conditions met that are needed to conduct an ANOVA test?  Explain using the output provided.
