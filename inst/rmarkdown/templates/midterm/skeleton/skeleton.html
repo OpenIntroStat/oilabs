@@ -146,8 +146,6 @@ $(document).ready(function () {
 <!-- The code on lines 9-11 below converts the - into a, b, etc. -->
 <style type="text/css">
     ul { list-style-type: lower-alpha; }
-}
-
 </style>
 <hr />
 <div id="multiple-choice-questions" class="section level4">
@@ -355,12 +353,18 @@ $(document).ready(function () {
 <td align="center">1.9</td>
 </tr>
 <tr class="odd">
+<td align="center">___________</td>
+<td align="right">_______________</td>
+<td align="right">_______________</td>
+<td align="center">_____________</td>
+</tr>
+<tr class="even">
 <td align="center"><span class="math inline">\(\bar{x}\)</span></td>
 <td align="right"><strong>25.08</strong></td>
 <td align="right"><strong>24.25</strong></td>
 <td align="center"><strong>0.83</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="center"><span class="math inline">\(s\)</span></td>
 <td align="right"><strong>3.16</strong></td>
 <td align="right"><strong>3.42</strong></td>
@@ -370,20 +374,20 @@ $(document).ready(function () {
 </table>
 <ul>
 <li><p>How many independent observations are in this dataset?</p></li>
-<li><p>Does there appear to be a difference between the gasoline mileage obtained when cars have clean air filters and when they have dirty air filters at the 10% level? Give complete statistical evidence to support your answer, including the hypotheses, test statistic, degrees of freedom, <em>approximate</em> <span class="math inline">\(p\)</span>-value, an interpretation of your results, and a check of the conditions needed for validity. (Use the results at the bottom of this question to answer the question.)</p></li>
+<li><p>Does there appear to be a difference between the gasoline mileage obtained when cars have clean air filters and when they have dirty air filters at the 10% level? Give complete statistical evidence to support your answer, including the hypotheses, test statistic, degrees of freedom, <em>approximate</em> <span class="math inline">\(p\)</span>-value, an interpretation of your results, and a check of the conditions needed for validity. (Use the R results at the bottom of this question to answer the question.)</p></li>
 <li><p>Give a 95% confidence interval for the magnitude of the average difference and provide an interpretation of the interval.</p></li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df=</span><span class="dv">9</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df =</span> <span class="dv">9</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <pre><code>## [1] 1.383029 1.833113 2.262157 4.296806 3.249836</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df=</span><span class="dv">10</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df =</span> <span class="dv">10</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <pre><code>## [1] 1.372184 1.812461 2.228139 4.143700 3.169273</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df=</span><span class="dv">19</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df =</span> <span class="dv">19</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <pre><code>## [1] 1.327728 1.729133 2.093024 3.579400 2.860935</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df=</span><span class="dv">20</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df =</span> <span class="dv">20</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <pre><code>## [1] 1.325341 1.724718 2.085963 3.551808 2.845340</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df=</span><span class="dv">29</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df =</span> <span class="dv">29</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <pre><code>## [1] 1.311434 1.699127 2.045230 3.396240 2.756386</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df=</span><span class="dv">30</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">qt</span>(<span class="kw">c</span>(<span class="fl">0.1</span>, <span class="fl">0.05</span>, <span class="fl">0.025</span>, <span class="fl">0.001</span>, <span class="fl">0.005</span>), <span class="dt">df =</span> <span class="dv">30</span>, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)</code></pre></div>
 <pre><code>## [1] 1.310415 1.697261 2.042272 3.385185 2.749996</code></pre>
 <hr />
 <ol start="18" style="list-style-type: decimal">
