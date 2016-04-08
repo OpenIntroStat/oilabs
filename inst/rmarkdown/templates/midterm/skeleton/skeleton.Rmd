@@ -8,8 +8,6 @@ output: oilabs::midterm
 <!-- The code on lines 9-11 below converts the - into a, b, etc. -->
 <style type="text/css">
     ul { list-style-type: lower-alpha; }
-}
-
 </style>
 
 * * *
