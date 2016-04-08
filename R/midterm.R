@@ -1,11 +1,10 @@
-#' lab_report
+#' midterm
 #' 
 #' @export
 
-midterm <- function(highlight = "pygments", theme = "spacelab", css = "styles.css"){
+midterm <- function(highlight = "pygments", theme = "spacelab"){
   if(!require(rmarkdown))
     install.packages("rmarkdown", repos = "http://cran.rstudio.com")
   rmarkdown::html_document(highlight = highlight,
-    theme = theme,
-    css = css)
+    theme = theme)
 }
