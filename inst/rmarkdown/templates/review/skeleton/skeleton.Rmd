@@ -2,15 +2,9 @@
 title: "MATH 141 Problem Type Examples"
 author: "Name"
 date: "April 25, 2016"
-#output: oilabs::review
+output: oilabs::review
 ---
 
-<!-- The code on lines 9-11 below converts the - into a, b, etc. 
-<style type="text/css">
-    ol { list-style-type: upper-alpha; }
-</style>
-
--->
 
 * * *
 
