@@ -18,9 +18,9 @@ Recall the following notation:
 
 For each of the following problems, 
 
-
-  - A. identify the model type (e.g., $K_1 \sim K_2$),
-  - B. determine which type of problem it is 
+  - A. identify the variable(s) and types of variable(s),
+  - B. identify the model type (e.g., $K_1 \sim K_2$),
+  - C. determine which type of problem it is 
     - One Proportion
     - Two Proportions
     - Multiple Proportions (Goodness of Fit)
@@ -31,13 +31,13 @@ For each of the following problems,
     - Multiple Means
     - Linear Regression
     - Logistic Regression
-  - C. draw a sketch of an effective visualization of the sample data and give the name of that type of plot,
-  - D. write (in symbols) the parameter(s) and point estimate(s),
-  - E. write the null and alternative hypothesis,
-  - F. identify what conditions need to be met in order to use a named distribution/theoretical approach,
-  - G. if relevant, provide a formula for the confidence interval of the parameter of interest,
-  - H. give a formula for how to calculate the $P$-value based on simulation/randomization (when applicable) AND via the theoretical approach, and 
-  - I.  assuming conditions are met, provide the named distribution (e.g., $t(df = 22)$) for the null distribution.
+  - D. draw a sketch of an effective visualization of the sample data and give the name of that type of plot,
+  - E. write (in symbols) the parameter(s) and point estimate(s),
+  - F. write the null and alternative hypothesis,
+  - G. identify what conditions need to be met in order to use a named distribution/theoretical approach,
+  - H. if relevant, provide a formula for the confidence interval of the parameter of interest,
+  - I. give a formula for how to calculate the $P$-value based on simulation/randomization (when applicable) AND via the theoretical approach, and 
+  - J.  assuming conditions are met, provide the named distribution (e.g., $t(df = 22)$) for the null distribution.
 
 You can assume that the significance level is 5% for all problems here.
 
