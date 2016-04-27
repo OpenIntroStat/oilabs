@@ -1305,7 +1305,8 @@ inference <- function(y, x = NULL, est = c("mean", "median", "proportion"), succ
             cat("\nSummary statistics:\n")
             y_table = table(y, x)
             print(addmargins(y_table))
-            mosaicplot(table(x, y), main = "", col = COL[3, 4])
+            if(eda_plot == TRUE)
+              mosaicplot(table(x, y), main = "", col = COL[3, 4])
             cat("\n")
             
             # hypotheses
