@@ -16,7 +16,7 @@ knitr::opts_chunk$set(warning = FALSE, fig.width = 9, fig.height = 5)
 
 * * *
 
-### Make sure that your working directory is set correctly in order to read in the data using `read.csv`!  If you have questions, please email Andrew or Chester.  The last thing we want is for you to not be able to load in the dataset and miss the entire problem.
+### Make sure that your working directory is set correctly in order to read in the data using `read.csv`!  If you have questions, please email Andrew (abray@reed.edu) or Chester (cismay@reed.edu).  The last thing we want is for you to not be able to load in the dataset and miss the entire problem.
 
 ## Identification of Problem Types
 
