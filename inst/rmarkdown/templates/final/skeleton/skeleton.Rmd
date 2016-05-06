@@ -1,0 +1,57 @@
+---
+title: "MATH 141 Final Exam - Take Home Portion"
+author: "Name"
+date: "Due Tuesday, May 10 at 9 AM PST"
+output: oilabs::review
+---
+
+```{r setup, warning=FALSE, message=FALSE}
+library(oilabs)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+options(scipen = 99)
+knitr::opts_chunk$set(warning = FALSE, fig.width = 9, fig.height = 5)
+```
+
+* * *
+
+## Identification of Problem Types
+
+For each of the following problems, conduct a thorough analysis to answer each problem's question of interest via hypothesis testing.  You can find the datasets as CSV files in the folder with your Rmd.  
+Your analyses should include the following
+
+  - identify the variable(s) and types of variable(s) (Categorical or Numerical),
+  - determine which type of problem it is 
+    - One Proportion
+    - Two Proportions
+    - Multiple Proportions (Goodness of Fit)
+    - Multiple Proportions (Test of Independence)
+    - One Mean
+    - Two Means (Independent)
+    - Two Means (Paired)
+    - Multiple Means
+    - Linear Regression
+    - Logistic Regression
+  - write the null and alternative hypothesis,
+  - produce the appropriate R code and generate relevant plot(s) for the sample data,
+  - discuss what stands out from the plot and make a guess as to whether you should reject the null hypothesis or not,
+  - identify what conditions need to be met in order to use a named distribution/theoretical approach,
+  - check that these conditions have been met,
+  - conduct the appropriate hypothesis test using R to solve the question of interest, assuming conditions are met,
+  - interpret what the $p$-value means using the definition of the $p$-value, and
+  - discuss the results of the hypothesis test addressing the research question/statement.
+  
+You can assume that the significance level is 5% for all problems here.
+
+**1.** _Anchoring_ is the common human tendency to rely too heavily, or 'anchor,' on one trait or piece of information when making decisions. A randomly selected group of students at a four-year university in California were asked to guess the population of Milwaukee, Wisconsin. Some of the students were randomly chosen to be told that the nearby city of Chicago, Illinois has a population of about 3 million people, while the rest of the students were told that the nearby city of Green Bay, Wisconsin has a population of about 100 thousand. The purpose in analyzing the data is to see if we find strong evidence of this phenomenon among students like the ones in this study.  (Test for a difference.)
+
+
+**2.** Can you tell hawk species apart just from the length of their beaks?  The culmen is the dorsal ridge of the upper mandible and its length is commonly used as a measurement of beak length.  Students and faculty at Cornell College in Mount Vernon, Iowa, collected data over many years at the hawk blind at Lake MacBride near Iowa City, Iowa.  Data were collected on random samples of three different species of hawks:  red-tailed, sharp-shinned, and Cooper's hawks.  
+
+
+
+**3.** In a 1965 article in _Public Opinion Quarterly_, psychologist Stanley Milgram reported on a study where he intentionally lost letters to see if the nature of the address on the letter would affect return rates when people found the letters lying on a public sidewalk.  For example, he found that letters addressed to a subversive organization such as Friends of the Nazi Party were far less likely to be returned than those addressed to an individual or to a medical research organization.
+
+In 1999 Grinnell College students Laurelin Muir and Adam Gratch conducted an experiment similar to Milgram's for an introductory statistics class.  They intentionally "lost 140 letters" in either the city of Des Moines, the town of Grinnell, or on the Grinnell College campus.  Half of each sample were addressed to Friends of the Confederacy and the other half to Iowa Peaceworks.  Is there a relationship between where the letter was addressed and whether or not the letter was returned?
+
