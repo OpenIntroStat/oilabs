@@ -45,9 +45,9 @@ Your analyses should include the following
   - interpret what the $p$-value means using the definition of the $p$-value, and
   - discuss the results of the hypothesis test addressing the research question/statement.
   
-You can assume that the significance level is 5% for all problems here.
+You can assume that the significance level is 5% for all problems here and that all $p$-values correspond to **two-tailed tests**.
 
-**1.** _Anchoring_ is the common human tendency to rely too heavily, or 'anchor,' on one trait or piece of information when making decisions. A randomly selected group of students at a four-year university in California were asked to guess the population of Milwaukee, Wisconsin. Some of the students were randomly chosen to be told that the nearby city of Chicago, Illinois has a population of about 3 million people, while the rest of the students were told that the nearby city of Green Bay, Wisconsin has a population of about 100 thousand. The purpose in analyzing the data is to see if we find strong evidence of this phenomenon among students like the ones in this study.  (Test for a difference.)
+**1.** _Anchoring_ is the common human tendency to rely too heavily, or 'anchor,' on one trait or piece of information when making decisions. A randomly selected group of students at a four-year university in California were asked to guess the population of Milwaukee, Wisconsin. Some of the students were randomly chosen to be told that the nearby city of Chicago, Illinois has a population of about 3 million people, while the rest of the students were told that the nearby city of Green Bay, Wisconsin has a population of about 100 thousand. The purpose in analyzing the data is to see if we find strong evidence of this phenomenon among students like the ones in this study.
 
 
 **2.** Can you tell hawk species apart just from the length of their beaks?  The culmen is the dorsal ridge of the upper mandible and its length is commonly used as a measurement of beak length.  Students and faculty at Cornell College in Mount Vernon, Iowa, collected data over many years at the hawk blind at Lake MacBride near Iowa City, Iowa.  Data were collected on random samples of three different species of hawks:  red-tailed, sharp-shinned, and Cooper's hawks.  
