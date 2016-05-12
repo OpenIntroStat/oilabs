@@ -123,7 +123,7 @@ FTail <- function(U = NULL, df_n = 100, df_d = 100, curveColor = 1, border = 1, 
 inference <- function(y, x = NULL, est = c("mean", "median", "proportion"), success = NULL, order = NULL, 
     conflevel = 0.95, siglevel = 0.05, null = NULL, alternative = c("less", "greater", "twosided"), 
     type = c("ci", "ht"), method = c("theoretical", "simulation"), simdist = FALSE, nsim = 10000, 
-    seed = NULL, sum_stats = TRUE, eda_plot = TRUE, inf_plot = TRUE, inf_lines = TRUE) {
+    seed = NULL, sum_stats = TRUE, eda_plot = FALSE, inf_plot = FALSE, inf_lines = FALSE) {
     # y: variable 1, can be numerical or categorical x: variable 2, categorical (optional) est:
     # parameter to estimate, mean, median, or proportion success: which level of the categorical
     # variable to call 'success', i.e. do inference on order: when x is given, order of xs in which
