@@ -1,8 +1,8 @@
-Package: oilabs
+Package: reedoilabs
 Type: Package
-Title: R Package Companion to OpenIntro Labs
-Version: 0.1.1.9003
-Date: 2016-02-01
+Title: R Package Companion to OpenIntro Labs for Reed College
+Version: 0.1.2
+Date: 2016-05-15
 Authors@R: as.person(c(
     "Andrew Bray <andrew@openintro.org> [aut, cre]",
     "Mine Cetinkaya-Rundel <mine@stat.duke.edu> [aut]",
