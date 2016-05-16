@@ -2,7 +2,7 @@
 title: "Lab Name"
 author: "Name"
 date: "Date of lab session"
-output: oilabs::lab_report
+output: reedoilabs::lab_report
 ---
 
 ```{r setup, include=FALSE}

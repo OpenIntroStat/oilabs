@@ -2,7 +2,7 @@
 title: "MATH 141 Final Exam - Take Home Portion"
 author: "Name"
 date: "Due Tuesday, May 10 at 9 AM PST"
-output: oilabs::review
+output: reedoilabs::review
 ---
 
 ```{r setup, warning=FALSE, message=FALSE}

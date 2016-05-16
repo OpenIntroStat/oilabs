@@ -2,7 +2,7 @@
 title: "MATH 141 Midterm II Take Home Exam"
 author: "Name"
 date: "Due Monday, April 11, 2016 at 11 AM PST"
-output: oilabs::midterm
+output: reedoilabs::midterm
 ---
 
 <!-- The code on lines 9-11 below converts the - into a, b, etc. -->

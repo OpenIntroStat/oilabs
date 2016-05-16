@@ -2,7 +2,7 @@
 title: "MATH 141 Problem Type Examples"
 author: "Name"
 date: "April 25, 2016"
-output: oilabs::review
+output: reedoilabs::review
 ---
 
 
