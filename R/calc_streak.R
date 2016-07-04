@@ -1,20 +1,26 @@
-#' calc_streak
+#' Calculate hit streaks.
 #' 
-#' @param x A sequence of \code{"H"} and \code{"M"} values indicating a sequence
-#'   of hit or missed shots.
-#'   
-#' @return A vector of the streak lengths. A streak is defined as a series of
-#'   hits \code{"H"} followed by a miss \code{"M"}.
-#' @export
-#' 
+#' @param x A data frame or character vector of hits (\code{"H"}) and misses (\code{"M"}).
+#' @return A data frame with one column, \code{length}, containing the length of each hit streak.
 #' @examples
-#' sequence <- c("H", "H", "M", "H", "M", "M", "H", "H", "H")
-#' calc_streak(sequence)
-calc_streak <- function(x){
-  y <- rep(0,length(x))
-  y[x == "H"] <- 1
-  y <- c(0, y, 0)
-  wz <- which(y == 0)
-  streak <- diff(wz) - 1
-  return(streak)
+#' data(kobe_basket)
+#' calc_streak(kobe_basket$shot)
+#' 
+#' @export
+
+calc_streak = function(x)
+{
+    if (!is.atomic(x))
+        x = x[,1]
+
+    if (any(!x %in% c("H","M")))
+        stop('Input should only contain hits ("H") and misses ("M")')
+    
+    y = rep(0,length(x))
+    y[x == "H"] = 1
+    y = c(0, y, 0)
+    wz = which(y == 0)
+    streak = diff(wz) - 1
+    
+    return(data.frame(length = streak))
 }
