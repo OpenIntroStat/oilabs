@@ -2,7 +2,6 @@
 
 export(calc_streak)
 export(inference)
-export(multiLines)
 export(plot_ci)
 export(plot_ss)
 export(qqnormsim)

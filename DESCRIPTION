@@ -15,7 +15,10 @@ Description: This R package provides a companion to the OpenIntro labs (https://
 License: CC0
 LazyData: TRUE
 Imports:
-    ggplot2
+    ggplot2,
+    dplyr,
+    broom,
+    gridExtra
 Depends:
     R (>= 2.10)
 Suggests:
