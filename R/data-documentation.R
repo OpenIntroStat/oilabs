@@ -32,7 +32,7 @@
 #' }
 #' @source Data up to 2002 appear in Mathews TJ, and Hamilton BE. 2005. Trend
 #' analysis of the sex ratio at birth in the United States. National Vital
-#' Statistics Reports 53(20):1-17. Data for 2003 - 20013 have been collected
+#' Statistics Reports 53(20):1-17. Data for 2003 - 2013 have been collected
 #' from annual National Vital Statistics Reports published by the US Department of 
 #' Health and Human Services, Centers for Disease Control and Prevention, 
 #' National Center for Health Statistics.
@@ -40,11 +40,6 @@
 
 #' Behavioral survey
 #'
-#' This data set is a random sample of 20,000 people from the Behavioral Risk
-#' This data set is a random sample of 20,000 people from the Behavioral Risk
-#' This data set is a random sample of 20,000 people from the Behavioral Risk
-#' This data set is a random sample of 20,000 people from the Behavioral Risk
-#' This data set is a random sample of 20,000 people from the Behavioral Risk
 #' This data set is a random sample of 20,000 people from the Behavioral Risk
 #' Factor Surveillance System (BRFSS) survey conducted in 2000. While there
 #' are over 200 questions or variables in the original data set, this one
