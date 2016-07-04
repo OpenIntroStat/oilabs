@@ -9,9 +9,9 @@ Authors@R: as.person(c(
     "Albert Y. Kim <albert.ys.kim@gmail.com> [aut]",
     "Ben Baumer <ben.baumer@gmail.com> [aut]"
   ))
-Description: This R package provides a companion to the OpenIntro
-    labs (https://www.openintro.org/stat/labs.php). It contains data sets and
-    functions used in these labs and is necessary for successful completion of them.
+Description: This R package provides a companion to the OpenIntro labs (https://
+    www.openintro.org/stat/labs.php). It contains data sets and functions used in
+    these labs and is necessary for successful completion of them.
 License: CC0
 LazyData: TRUE
 Imports:
@@ -20,3 +20,4 @@ Depends:
     R (>= 2.10)
 Suggests:
     HistData
+RoxygenNote: 5.0.1

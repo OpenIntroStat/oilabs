@@ -6,9 +6,9 @@
 #' 
 #' It also contains the functions inference, multiLines, plot_ss and qqnormsim.
 #' 
-#'  @docType package
-#'  @name oilabs
-#'  @import stats
-#'  @import graphics
-#'  @import ggplot2
+#' @docType package
+#' @name oilabs
+#' @import stats
+#' @import graphics
+#' @import ggplot2
 NULL
