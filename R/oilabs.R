@@ -8,5 +8,7 @@
 #' 
 #'  @docType package
 #'  @name oilabs
-#'  @import  BHH2
+#'  @import stats
+#'  @import graphics
+#'  @import ggplot2
 NULL
