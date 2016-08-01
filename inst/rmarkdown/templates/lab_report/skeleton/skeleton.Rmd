@@ -1,0 +1,33 @@
+---
+title: "Generic Lab Name"
+author: "Name"
+date: "Date of lab session"
+output: oilabs::lab_report
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+library(oilabs)
+```
+
+* * *
+
+## Exercises
+
+### Exercise 1: 
+
+```{r}
+
+```
+
+* * *
+
+## On your own:
+
+### 1:
+
+
+
+

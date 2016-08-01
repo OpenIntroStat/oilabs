@@ -2,6 +2,7 @@
 
 export(calc_streak)
 export(inference)
+export(lab_report)
 export(plot_ci)
 export(plot_ss)
 export(qqnormsim)
