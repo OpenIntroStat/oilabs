@@ -1,5 +1,5 @@
 ---
-title: "Generic Lab Name"
+title: "Lab 1: Intro to R"
 author: "Name"
 date: "Date of lab session"
 output: oilabs::lab_report
@@ -22,12 +22,13 @@ library(oilabs)
 
 ```
 
-### Exercise 2:
 
+### Exercise 2:
 
 ```{r}
 
 ```
+
 
 ### Exercise 3:
 
@@ -36,33 +37,27 @@ library(oilabs)
 ```
 
 
-
-* * *
-
-## On your own:
-
-### 1:
+### Exercise 4:
 
 ```{r}
 
 ```
 
 
-### 2:
+### Exercise 5:
 
 
-### 3:
 
-```{r}
-
-```
-
-
-### 4:
+### Exercise 6:
 
 ```{r}
 
 ```
 
 
+### Exercise 7:
+
+```{r}
+
+```
 

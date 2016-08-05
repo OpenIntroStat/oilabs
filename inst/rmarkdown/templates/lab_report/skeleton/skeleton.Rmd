@@ -22,12 +22,6 @@ library(oilabs)
 
 ```
 
-* * *
-
-## On your own:
-
-### 1:
-
 
 
 
