@@ -14,7 +14,7 @@ Description: This R package provides a companion to the OpenIntro labs (https://
     www.openintro.org/stat/labs.php). It contains data sets and functions used in
     these labs and is necessary for successful completion of them.
 License: CC0
-LazyData: TRUE
+LazyData: FALSE
 Imports:
     ggplot2,
     dplyr,
