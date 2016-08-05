@@ -14,8 +14,6 @@ library(oilabs)
 
 * * *
 
-## Exercises
-
 ### Exercise 1: 
 
 ```{r eval = FALSE}
