@@ -6,24 +6,19 @@
 \title{Flights data}
 \format{A tbl_df with 32,735 rows and 16 variables:
 \describe{
-\item{year,month,day}{Date of departure}
+\item{year,month,day}{Date of departure.}
 \item{dep_time,arr_time}{Departure and arrival times, local tz.}
 \item{dep_delay,arr_delay}{Departure and arrival delays, in minutes.
   Negative times represent early departures/arrivals.}
-\item{hour,minute}{Time of departure broken in to hour and minutes}
-\item{carrier}{Two letter carrier abbreviation.
-\begin{itemize}
-\item 9E: Endeavor Air Inc.
-\item AA: American Airlines Inc.
-\end{itemize}
-See \code{airlines} in the
-  \code{nycflights13} package for more information}
-\item{tailnum}{Plane tail number}
-\item{flight}{Flight number}
+\item{hour,minute}{Time of departure broken in to hour and minutes.}
+\item{carrier}{Two letter carrier abbreviation. See \code{airlines} in the
+  \code{nycflights13} package for more information or google the airline code.}
+\item{tailnum}{Plane tail number.}
+\item{flight}{Flight number.}
 \item{origin,dest}{Origin and destination. See \code{airports} in the
-  \code{nycflights13} package for more information, or google airport the code.}
-\item{air_time}{Amount of time spent in the air}
-\item{distance}{Distance flown}
+  \code{nycflights13} package for more information or google airport the code.}
+\item{air_time}{Amount of time spent in the air.}
+\item{distance}{Distance flown.}
 }}
 \source{
 Hadley Wickham (2014). \code{nycflights13}: Data about flights departing
