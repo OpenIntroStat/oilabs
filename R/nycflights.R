@@ -1,10 +1,10 @@
 #' Flights data
 #'
-#' On-time data for a random sample of flights that departed NYC (i.e. JFK, LGA or EWR) 
+#' On-time data for a random sample of flights that departed NYC (i.e. JFK, LGA or EWR)
 #' in 2013.
 #'
-#' @source Hadley Wickham (2014). \code{nycflights13}: Data about flights departing 
-#' NYC in 2013. R package version 0.1. 
+#' @source Hadley Wickham (2014). \code{nycflights13}: Data about flights departing
+#' NYC in 2013. R package version 0.1.
 #'  \url{https://CRAN.R-project.org/package=nycflights13}
 #' @format A tbl_df with 32,735 rows and 16 variables:
 #' \describe{
@@ -13,7 +13,12 @@
 #' \item{dep_delay,arr_delay}{Departure and arrival delays, in minutes.
 #'   Negative times represent early departures/arrivals.}
 #' \item{hour,minute}{Time of departure broken in to hour and minutes}
-#' \item{carrier}{Two letter carrier abbreviation. See \code{airlines} in the
+#' \item{carrier}{Two letter carrier abbreviation.
+#' \begin{itemize}
+#' \item 9E: Endeavor Air Inc.
+#' \item AA: American Airlines Inc.
+#' \end{itemize}
+#' See \code{airlines} in the
 #'   \code{nycflights13} package for more information}
 #' \item{tailnum}{Plane tail number}
 #' \item{flight}{Flight number}
