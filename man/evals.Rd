@@ -31,7 +31,10 @@
 \source{
 These data appear in Hamermesh DS, and Parker A. 2005. Beauty in the
 classroom: instructors pulchritude and putative pedagogical productivity. Economics of Education Review
- 24(4):369-376.
+ 24(4):369-376. This is a slightly modified version of the original data set 
+ that was released as part of the replication data for Gelman, Andrew, and 
+ Jennifer Hill. Data analysis using regression and multilevel/hierarchical 
+ models. Cambridge University Press, 2006.
 }
 \usage{
 evals
