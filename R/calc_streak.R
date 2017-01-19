@@ -1,6 +1,6 @@
 #' Calculate hit streaks.
 #'
-#' @param x A data frame or character vector of hits (\code{"H"}) and misses (\code{"M"}).
+#' @param x A character vector of hits (\code{"H"}) and misses (\code{"M"}).
 #' @return A data frame with one column, \code{length}, containing the length of each hit streak.
 #' @examples
 #' data(kobe_basket)

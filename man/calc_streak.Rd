@@ -7,7 +7,7 @@
 calc_streak(x)
 }
 \arguments{
-\item{x}{A data frame or character vector of hits (\code{"H"}) and misses (\code{"M"}).}
+\item{x}{A character vector of hits (\code{"H"}) and misses (\code{"M"}).}
 }
 \value{
 A data frame with one column, \code{length}, containing the length of each hit streak.
