@@ -17,4 +17,3 @@ plot_ci(lo, hi, m)
 This function takes vectors of upper and lower confidence interval bounds, 
 as well as poplutation mean, and plots which confidence intervals intersect the mean
 }
-

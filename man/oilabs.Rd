@@ -13,4 +13,3 @@ In particular, it contains the datasets arbuthnot, atheism, bdims, cdc, evals, k
 
 It also contains the functions inference, multiLines, plot_ss and qqnormsim.
 }
-

@@ -44,4 +44,3 @@ weight, height and gender, are given for 507 physically active individuals -
 247 men and 260 women.
 }
 \keyword{datasets}
-

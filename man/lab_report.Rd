@@ -38,4 +38,3 @@ chunks by default.}
 Acts as a simplified template to common parameters passed to
 rmarkdown::html_document
 }
-

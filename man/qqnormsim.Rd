@@ -20,4 +20,3 @@ to the input data. The other eight plots arise from simulating random normal
 data with the same mean, standard deviation, and length as the data. For use
 in comparing known-normal qqplots to an observed qqplot to assess normality.
 }
-
