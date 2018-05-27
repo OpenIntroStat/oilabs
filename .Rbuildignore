@@ -1,0 +1,7 @@
+^.*\.Rproj$               # RStudio Rproj
+^\.Rproj\.user$           # Temporary files
+^README\.Rmd$             # An Rmarkdown file used to generate README.md
+^cran-comments\.md$       # Comments for CRAN submission
+^NEWS\.md$                # A news file written in Markdown
+^\.travis\.yml$           # Used for continuous integration testing with travis
+^oilabs-r-package\.Rproj$ # devtools::use_build_ignore("oilabs-r-package.Rproj")
