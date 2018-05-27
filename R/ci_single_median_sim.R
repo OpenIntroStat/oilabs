@@ -1,4 +1,20 @@
-#' Helper for the inference() function, not exported
+#' Confidence interval for one median, using bootstrapping
+#' 
+#' Helper for the [inference] function
+#' 
+#' @param y Response variable, can be numerical or categorical
+#' @param conf_level confidence level, value between 0 and 1
+#' @param y_name Name of response variable as a character string (passed 
+#' from inference function)
+#' @param boot_method bootstrap method; "perc" (percentile) or 
+#' "se" (standard error)
+#' @param nsim number of simulations
+#' @param seed seed to be set, default is NULL
+#' @param show_var_types print variable types, set to verbose by default
+#' @param show_summ_stats print summary stats, set to verbose by default
+#' @param show_eda_plot print EDA plot, set to verbose by default
+#' @param show_inf_plot print inference plot, set to verbose by default
+#' @param show_res print results, set to verbose by default
 
 ci_single_median_sim <- function(y, conf_level, y_name,
                                  boot_method, nsim, seed, 

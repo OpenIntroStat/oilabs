@@ -2,11 +2,36 @@
 % Please edit documentation in R/ht_many_prop_sim.R
 \name{ht_many_prop_sim}
 \alias{ht_many_prop_sim}
-\title{Helper for the inference() function, not exported}
+\title{Hypothesis testing for many proportions, using simulated chi-square independence}
 \usage{
-ht_many_prop_sim(y, x, x_name, y_name, seed, nsim, show_var_types,
+ht_many_prop_sim(y, x, y_name, x_name, seed, nsim, show_var_types,
   show_summ_stats, show_res, show_eda_plot, show_inf_plot)
 }
+\arguments{
+\item{y}{Response variable, can be numerical or categorical}
+
+\item{x}{Explanatory variable, categorical (optional)}
+
+\item{y_name}{Name of response variable as a character string (passed 
+from inference function)}
+
+\item{x_name}{Name of explanatory variable as a character string (passed 
+from inference function)}
+
+\item{seed}{seed to be set, default is NULL}
+
+\item{nsim}{number of simulations}
+
+\item{show_var_types}{print variable types, set to verbose by default}
+
+\item{show_summ_stats}{print summary stats, set to verbose by default}
+
+\item{show_res}{print results, set to verbose by default}
+
+\item{show_eda_plot}{print EDA plot, set to verbose by default}
+
+\item{show_inf_plot}{print inference plot, set to verbose by default}
+}
 \description{
-Helper for the inference() function, not exported
+Helper for the [inference] function
 }

@@ -2,11 +2,32 @@
 % Please edit documentation in R/ci_single_prop_theo.R
 \name{ci_single_prop_theo}
 \alias{ci_single_prop_theo}
-\title{Helper for the inference() function, not exported}
+\title{Confidence interval for one proportion, using CLT based Z-interval}
 \usage{
 ci_single_prop_theo(y, success, conf_level, y_name, show_var_types,
   show_summ_stats, show_res, show_eda_plot, show_inf_plot)
 }
+\arguments{
+\item{y}{Response variable, can be numerical or categorical}
+
+\item{success}{which level of the categorical variable to call "success", 
+i.e. do inference on}
+
+\item{conf_level}{confidence level, value between 0 and 1}
+
+\item{y_name}{Name of response variable as a character string (passed 
+from inference function)}
+
+\item{show_var_types}{print variable types, set to verbose by default}
+
+\item{show_summ_stats}{print summary stats, set to verbose by default}
+
+\item{show_res}{print results, set to verbose by default}
+
+\item{show_eda_plot}{print EDA plot, set to verbose by default}
+
+\item{show_inf_plot}{print inference plot, set to verbose by default}
+}
 \description{
-Helper for the inference() function, not exported
+Helper for the [inference] function
 }

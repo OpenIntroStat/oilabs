@@ -2,11 +2,34 @@
 % Please edit documentation in R/ci_two_mean_theo.R
 \name{ci_two_mean_theo}
 \alias{ci_two_mean_theo}
-\title{Helper for the inference() function, not exported}
+\title{Confidence interval for two means, using CLT-based T-interval}
 \usage{
 ci_two_mean_theo(y, x, conf_level, y_name, x_name, show_var_types,
   show_summ_stats, show_res, show_eda_plot, show_inf_plot)
 }
+\arguments{
+\item{y}{Response variable, can be numerical or categorical}
+
+\item{x}{Explanatory variable, categorical (optional)}
+
+\item{conf_level}{confidence level, value between 0 and 1}
+
+\item{y_name}{Name of response variable as a character string (passed 
+from inference function)}
+
+\item{x_name}{Name of explanatory variable as a character string (passed 
+from inference function)}
+
+\item{show_var_types}{print variable types, set to verbose by default}
+
+\item{show_summ_stats}{print summary stats, set to verbose by default}
+
+\item{show_res}{print results, set to verbose by default}
+
+\item{show_eda_plot}{print EDA plot, set to verbose by default}
+
+\item{show_inf_plot}{print inference plot, set to verbose by default}
+}
 \description{
-Helper for the inference() function, not exported
+Helper for the [inference] function
 }

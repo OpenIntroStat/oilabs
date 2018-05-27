@@ -2,11 +2,32 @@
 % Please edit documentation in R/ht_single_mean_theo.R
 \name{ht_single_mean_theo}
 \alias{ht_single_mean_theo}
-\title{Helper for the inference() function, not exported}
+\title{Hypothesis testing for one mean, using CLT-based T-test}
 \usage{
 ht_single_mean_theo(y, null, alternative, y_name, show_var_types,
   show_summ_stats, show_res, show_eda_plot, show_inf_plot)
 }
+\arguments{
+\item{y}{Response variable, can be numerical or categorical}
+
+\item{null}{null value for a hypothesis test}
+
+\item{alternative}{direction of the alternative hypothesis; "less", 
+"greater", or "twosided"}
+
+\item{y_name}{Name of response variable as a character string (passed 
+from inference function)}
+
+\item{show_var_types}{print variable types, set to verbose by default}
+
+\item{show_summ_stats}{print summary stats, set to verbose by default}
+
+\item{show_res}{print results, set to verbose by default}
+
+\item{show_eda_plot}{print EDA plot, set to verbose by default}
+
+\item{show_inf_plot}{print inference plot, set to verbose by default}
+}
 \description{
-Helper for the inference() function, not exported
+Helper for the [inference] function
 }
