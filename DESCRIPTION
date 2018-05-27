@@ -13,6 +13,8 @@ Description: This R package provides a companion to the OpenIntro labs (https://
     www.openintro.org/stat/labs.php). It contains data sets and functions used in
     these labs and is necessary for successful completion of them.
 License: CC0
+URL: https://github.com/OpenIntroOrg/oilabs-r-package
+BugReports: https://github.com/tidyverse/OpenIntroOrg/oilabs-r-package/issues
 LazyData: FALSE
 Imports:
     ggplot2,
