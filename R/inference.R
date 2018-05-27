@@ -46,11 +46,6 @@ inference <- function(y, x = NULL, data,
                "Please install these packages before running the inference function."), call. = FALSE)
   }
 
-#  # load packages if needed
-#  suppressMessages(library(ggplot2, quietly = TRUE))
-#  suppressMessages(library(gridExtra, quietly = TRUE))
-#   suppressMessages(library(broom, quietly = TRUE))
-
   # save axis labels for use later
   y_name <- paste(substitute(y))
   x_name <- paste(substitute(x))
