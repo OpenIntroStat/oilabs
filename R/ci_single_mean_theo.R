@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ci_single_mean_theo <- function(y, conf_level, y_name, 
                                 show_var_types, show_summ_stats, show_res,
                                 show_eda_plot, show_inf_plot){

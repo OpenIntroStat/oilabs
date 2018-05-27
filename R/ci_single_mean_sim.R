@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ci_single_mean_sim <- function(y, conf_level, y_name,
                                boot_method, nsim, seed,
                                show_var_types, show_summ_stats, show_res,

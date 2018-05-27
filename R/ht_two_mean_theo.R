@@ -1,3 +1,4 @@
+#' Helper for the inference() function, not exported
 
 ht_two_mean_theo <- function(y, x, null, alternative, 
                              y_name, x_name, 

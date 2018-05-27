@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ht_many_prop_sim <- function(y, x, x_name, y_name, seed, nsim,
                               show_var_types, show_summ_stats, show_res,
                               show_eda_plot, show_inf_plot){

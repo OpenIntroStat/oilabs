@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ci_two_prop_theo <- function(y, x, success, conf_level, 
                              x_name, y_name,
                              show_var_types, show_summ_stats, show_res,

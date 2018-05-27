@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ht_two_prop_theo <- function(y, x, success, null, alternative,
                              x_name, y_name, 
                              show_var_types, show_summ_stats, show_res,

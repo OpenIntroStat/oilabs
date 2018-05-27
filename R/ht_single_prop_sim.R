@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ht_single_prop_sim <- function(y, success, null, alternative,
                                nsim, seed, y_name,
                                show_var_types, show_summ_stats,

@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ht_single_mean_sim <- function(y, null, alternative, y_name,
                                nsim, seed, 
                                show_var_types, show_summ_stats, show_res,

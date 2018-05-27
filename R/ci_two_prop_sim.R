@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ci_two_prop_sim <- function(y, x, success, conf_level, 
                             x_name, y_name,
                             boot_method, nsim, seed,

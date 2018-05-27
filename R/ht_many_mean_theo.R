@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ht_many_mean_theo <- function(y, x, null, alternative, sig_level,
                               y_name, x_name, 
                               show_var_types, show_summ_stats, show_res,

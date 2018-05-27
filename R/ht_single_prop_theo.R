@@ -1,3 +1,5 @@
+#' Helper for the inference() function, not exported
+
 ht_single_prop_theo <- function(y, success, null, alternative, y_name,
                                 show_var_types, show_summ_stats, show_res,
                                 show_eda_plot, show_inf_plot){
