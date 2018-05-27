@@ -6,3 +6,4 @@
 ^\.travis\.yml$           # Used for continuous integration testing with travis
 ^oilabs-r-package\.Rproj$ # devtools::use_build_ignore("oilabs-r-package.Rproj")
 ^\.github$                # Ignore github folder
+^data-raw$                # Ignore data-raw folder
