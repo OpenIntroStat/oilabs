@@ -6,10 +6,12 @@
 \alias{oilabs-package}
 \title{oilabs: An R package accompanying the OpenIntro labs.}
 \description{
-The oilabs package contains the data sets, custom functions, documentation, and templates for the OpenIntro Labs.
+The oilabs package contains the data sets, custom functions, documentation,
+and templates for the OpenIntro Labs.
 }
 \details{
-In particular, it contains the datasets arbuthnot, atheism, bdims, cdc, evals, kobe, mlb11 and present.
+In particular, it contains the datasets arbuthnot, atheism, bdims, cdc,
+evals, kobe, mlb11 and present.
 
 It also contains the functions inference, multiLines, plot_ss and qqnormsim.
 }

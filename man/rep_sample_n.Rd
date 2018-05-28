@@ -16,11 +16,12 @@ rep_sample_n(tbl, size, replace = FALSE, reps = 1)
 \item{reps}{The number of samples to collect.}
 }
 \value{
-A tbl_df that aggregates all created samples, with the addition of a \code{replicate} column that the tbl_df is also grouped by
+A tbl_df that aggregates all created samples, with the addition of
+a \code{replicate} column that the tbl_df is also grouped by
 }
 \description{
-Take a sample from the given data frame with a given sample size and 
-a desired number of times. Useful for generating sampling and bootstrap 
-distributions, and works well in a dplyr pipeline. Built with 
-`dplyr::sample_n` in mind.
+Take a sample from the given data frame with a given sample size and
+a desired number of times. Useful for generating sampling and bootstrap
+distributions, and works well in a dplyr pipeline. Built with
+\code{dplyr::sample_n} in mind.
 }

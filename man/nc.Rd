@@ -6,19 +6,21 @@
 \title{North Carolina births}
 \format{A tbl_df with 1000 rows and 13 variables:
 \describe{
-  \item{fage}{father's age in years}
-  \item{mage}{mother's age in years}
-  \item{mature}{maturity status of mother}
-  \item{weeks}{length of pregnancy in weeks}
-  \item{premie}{whether the birth was classified as premature (premie) or full-term}
-  \item{visits}{number of hospital visits during pregnancy}
-  \item{marital}{whether mother is `married` or `not married` at birth}
-  \item{gained}{weight gained by mother during pregnancy in pounds}
-  \item{weight}{weight of the baby at birth in pounds}
-  \item{lowbirthweight}{whether baby was classified as low birthweight (`low`) or not (`not low`)}
-  \item{gender}{gender of the baby, `female` or `male`}
-  \item{habit}{status of the mother as a `nonsmoker` or a `smoker`}
-  \item{whitemom}{whether mom is `white` or `not white`}
+\item{fage}{father's age in years}
+\item{mage}{mother's age in years}
+\item{mature}{maturity status of mother}
+\item{weeks}{length of pregnancy in weeks}
+\item{premie}{whether the birth was classified as premature (premie) or
+full-term}
+\item{visits}{number of hospital visits during pregnancy}
+\item{marital}{whether mother is \code{married} or \code{not married} at birth}
+\item{gained}{weight gained by mother during pregnancy in pounds}
+\item{weight}{weight of the baby at birth in pounds}
+\item{lowbirthweight}{whether baby was classified as low birthweight
+(\code{low}) or not (\code{not low})}
+\item{gender}{gender of the baby, \code{female} or \code{male}}
+\item{habit}{status of the mother as a \code{nonsmoker} or a \code{smoker}}
+\item{whitemom}{whether mom is \code{white} or \code{not white}}
 }}
 \source{
 State of North Carolina.
@@ -27,10 +29,10 @@ State of North Carolina.
 nc
 }
 \description{
-In 2004, the state of North Carolina released a large data set containing 
-information on births recorded in this state. This data set is useful to 
-researchers studying the relation between habits and practices of expectant 
-mothers and the birth of their children. We will work with a random sample of 
+In 2004, the state of North Carolina released a large data set containing
+information on births recorded in this state. This data set is useful to
+researchers studying the relation between habits and practices of expectant
+mothers and the birth of their children. We will work with a random sample of
 observations from this data set.
 }
 \keyword{datasets}

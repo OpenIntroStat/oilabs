@@ -1,22 +1,24 @@
 #' Interactively visualize and calculate sum of squares
 #'
-#' An interactive function that will generate a scatterplot of two variables, then
-#' allow the user to click the plot in two locations to draw a best fit line.
-#' Residuals are drawn by default; boxes representing the squared residuals are
-#' optional.
+#' An interactive function that will generate a scatterplot of two variables, 
+#' then allow the user to click the plot in two locations to draw a best fit 
+#' line. Residuals are drawn by default; boxes representing the squared 
+#' residuals are optional.
 #'
 #' @param x the name of numerical vector 1
 #' @param y the name of numerical vector 2
 #' @param data the dataframe in which x and y can be found
-#' @param showSquares logical option to show boxes representing the squared residuals
-#' @param leastSquares logical option to bypass point entry and automatically draw the least squares line
+#' @param showSquares logical option to show boxes representing the squared 
+#' residuals
+#' @param leastSquares logical option to bypass point entry and automatically 
+#' draw the least squares line
 #' @export
 #'
 
 plot_ss <- function(x, y, data, showSquares = FALSE, leastSquares = FALSE){
   x <- eval(substitute(x), data)
   y <- eval(substitute(y), data)
-  plot(y ~ x, asp = 1, pch = 16)# xlab = paste(substitute(x)), ylab = paste(substitute(y)))
+  plot(y ~ x, asp = 1, pch = 16) # xlab = paste(substitute(x)), ylab = paste(substitute(y)))
 
   if(leastSquares){
     m1 <- lm(y ~ x)
@@ -37,7 +39,8 @@ plot_ss <- function(x, y, data, showSquares = FALSE, leastSquares = FALSE){
   oSide <- x - r
   LLim <- par()$usr[1]
   RLim <- par()$usr[2]
-  oSide[oSide < LLim | oSide > RLim] <- c(x + r)[oSide < LLim | oSide > RLim] # move boxes to avoid margins
+  # move boxes to avoid margins
+  oSide[oSide < LLim | oSide > RLim] <- c(x + r)[oSide < LLim | oSide > RLim]
 
   n <- length(y.hat)
   for(i in 1:n){

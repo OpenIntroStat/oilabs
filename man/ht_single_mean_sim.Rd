@@ -12,10 +12,10 @@ ht_single_mean_sim(y, null, alternative, y_name, nsim, seed, show_var_types,
 
 \item{null}{null value for a hypothesis test}
 
-\item{alternative}{direction of the alternative hypothesis; "less", 
+\item{alternative}{direction of the alternative hypothesis; "less",
 "greater", or "twosided"}
 
-\item{y_name}{Name of response variable as a character string (passed 
+\item{y_name}{Name of response variable as a character string (passed
 from inference function)}
 
 \item{nsim}{number of simulations}
@@ -33,5 +33,5 @@ from inference function)}
 \item{show_inf_plot}{print inference plot, set to verbose by default}
 }
 \description{
-Helper for the `inference()` function
+Helper for the \code{inference()} function
 }

@@ -10,12 +10,12 @@ ci_single_prop_theo(y, success, conf_level, y_name, show_var_types,
 \arguments{
 \item{y}{Response variable, can be numerical or categorical}
 
-\item{success}{which level of the categorical variable to call "success", 
+\item{success}{which level of the categorical variable to call "success",
 i.e. do inference on}
 
 \item{conf_level}{confidence level, value between 0 and 1}
 
-\item{y_name}{Name of response variable as a character string (passed 
+\item{y_name}{Name of response variable as a character string (passed
 from inference function)}
 
 \item{show_var_types}{print variable types, set to verbose by default}
@@ -29,5 +29,5 @@ from inference function)}
 \item{show_inf_plot}{print inference plot, set to verbose by default}
 }
 \description{
-Helper for the `inference()` function
+Helper for the \code{inference()} function
 }
