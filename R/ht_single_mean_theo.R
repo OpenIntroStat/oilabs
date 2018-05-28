@@ -1,6 +1,6 @@
 #' Hypothesis testing for one mean, using CLT-based T-test
 #' 
-#' Helper for the [inference] function
+#' Helper for the `inference()` function
 #' 
 #' @param y Response variable, can be numerical or categorical
 #' @param null null value for a hypothesis test

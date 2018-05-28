@@ -1,6 +1,6 @@
 #' Hypothesis testing for one proportion, using CLT-based Z-test
 #' 
-#' Helper for the [inference] function
+#' Helper for the `inference()` function
 #' 
 #' @param y Response variable, can be numerical or categorical
 #' @param success which level of the categorical variable to call "success", 

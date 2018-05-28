@@ -36,5 +36,5 @@ from inference function)}
 \item{show_res}{print results, set to verbose by default}
 }
 \description{
-Helper for the [inference] function
+Helper for the `inference()` function
 }

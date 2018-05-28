@@ -1,6 +1,6 @@
 #' Hypothesis testing for many proportions, using chi-sq independence
 #' 
-#' Helper for the [inference] function
+#' Helper for the `inference()` function
 #' 
 #' @param y Response variable, can be numerical or categorical
 #' @param x Explanatory variable, categorical (optional)

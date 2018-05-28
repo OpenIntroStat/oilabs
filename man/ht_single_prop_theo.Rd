@@ -32,5 +32,5 @@ from inference function)}
 \item{show_inf_plot}{print inference plot, set to verbose by default}
 }
 \description{
-Helper for the [inference] function
+Helper for the `inference()` function
 }

@@ -1,6 +1,6 @@
 #' Confidence interval for two means, using bootstrapping
 #' 
-#' Helper for the [inference] function
+#' Helper for the `inference()` function
 #' 
 #' @param y Response variable, can be numerical or categorical
 #' @param x Explanatory variable, categorical (optional)

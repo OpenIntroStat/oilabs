@@ -1,6 +1,6 @@
 #' Confidence interval for two proportions, using a CLT based Z-interval
 #' 
-#' Helper for the [inference] function
+#' Helper for the `inference()` function
 #' 
 #' @param y Response variable, can be numerical or categorical
 #' @param x Explanatory variable, categorical (optional)
