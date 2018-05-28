@@ -1,14 +1,16 @@
 #' Housing prices in Ames, Iowa
 #'
-#' Data set contains information from the Ames Assessor's Office used in computing 
-#' assessed values for individual residential properties sold in Ames, IA from 2006 
-#' to 2010. See http://www.amstat.org/publications/jse/v19n3/decock/datadocumentation.txt 
+#' Data set contains information from the Ames Assessor's Office used in 
+#' computing assessed values for individual residential properties sold in 
+#' Ames, IA from 2006 to 2010. See 
+#' http://www.amstat.org/publications/jse/v19n3/decock/datadocumentation.txt 
 #' for detailed variable descriptions.
 #'
 #' @format A tbl_df with with 2930 rows and 82 variables:
 #' \describe{
 #'   \item{Order}{Observation number.}
-#'   \item{PID}{Parcel identification number  - can be used with city web site for parcel review.}
+#'   \item{PID}{Parcel identification number  - can be used with city web site 
+#'   for parcel review.}
 #'   \item{area}{Above grade (ground) living area square feet.}
 #'   \item{price}{Sale price in USD.}
 #'   \item{MS.SubClass}{Identifies the type of dwelling involved in the sale.}
@@ -22,15 +24,18 @@
 #'   \item{Utilities}{Type of utilities available.}
 #'   \item{Lot.Config}{Lot configuration.}
 #'   \item{Land.Slope}{Slope of property.}
-#'   \item{Neighborhood}{Physical locations within Ames city limits (map available).}
+#'   \item{Neighborhood}{Physical locations within Ames city limits (map 
+#'   available).}
 #'   \item{Condition.1}{Proximity to various conditions.}
-#'   \item{Condition.2}{Proximity to various conditions (if more than one is present).}
+#'   \item{Condition.2}{Proximity to various conditions (if more than one is 
+#'   present).}
 #'   \item{Bldg.Type}{Type of dwelling.}
 #'   \item{House.Style}{Style of dwelling.}
 #'   \item{Overall.Qual}{Rates the overall material and finish of the house.}
 #'   \item{Overall.Cond}{Rates the overall condition of the house.}
 #'   \item{Year.Built}{Original construction date.}
-#'   \item{Year.Remod.Add}{Remodel date (same as construction date if no remodeling or additions).}
+#'   \item{Year.Remod.Add}{Remodel date (same as construction date if no 
+#'   remodeling or additions).}
 #'   \item{Roof.Style}{Type of roof.}
 #'   \item{Roof.Matl}{Roof material.}
 #'   \item{Exterior.1st}{Exterior covering on house.}
@@ -38,7 +43,8 @@
 #'   \item{Mas.Vnr.Type}{Masonry veneer type.}
 #'   \item{Mas.Vnr.Area}{Masonry veneer area in square feet.}
 #'   \item{Exter.Qual}{Evaluates the quality of the material on the exterior.}
-#'   \item{Exter.Cond}{Evaluates the present condition of the material on the exterior.}
+#'   \item{Exter.Cond}{Evaluates the present condition of the material on the 
+#'   exterior.}
 #'   \item{Foundation}{Type of foundation.}
 #'   \item{Bsmt.Qual}{Evaluates the height of the basement.}
 #'   \item{Bsmt.Cond}{Evaluates the general condition of the basement.}
@@ -60,11 +66,13 @@
 #'   \item{Bsmt.Half.Bath}{Basement half bathrooms.}
 #'   \item{Full.Bath}{Full bathrooms above grade.}
 #'   \item{Half.Bath}{Half baths above grade.}
-#'   \item{Bedroom.AbvGr}{Bedrooms above grade (does NOT include basement bedrooms).}
+#'   \item{Bedroom.AbvGr}{Bedrooms above grade (does NOT include basement 
+#'   bedrooms).}
 #'   \item{Kitchen.AbvGr}{Kitchens above grade.}
 #'   \item{Kitchen.Qual}{Kitchen quality.}
 #'   \item{TotRms.AbvGrd}{Total rooms above grade (does not include bathrooms).}
-#'   \item{Functional}{Home functionality (Assume typical unless deductions are warranted).}
+#'   \item{Functional}{Home functionality (Assume typical unless deductions are 
+#'   warranted).}
 #'   \item{Fireplaces}{Number of fireplaces.}
 #'   \item{Fireplace.Qu}{Fireplace quality.}
 #'   \item{Garage.Type}{Garage location.}
@@ -91,5 +99,6 @@
 #'   \item{Sale.Condition}{Condition of sale.}
 #' }
 #' @source De Cock, Dean. "Ames, Iowa: Alternative to the Boston housing data as 
-#' an end of semester regression project." Journal of Statistics Education 19.3 (2011).
+#' an end of semester regression project." Journal of Statistics Education 19.3 
+#' (2011).
 "ames"

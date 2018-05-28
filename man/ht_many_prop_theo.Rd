@@ -12,10 +12,10 @@ ht_many_prop_theo(y, x, y_name, x_name, show_var_types, show_summ_stats,
 
 \item{x}{Explanatory variable, categorical (optional)}
 
-\item{y_name}{Name of response variable as a character string (passed 
+\item{y_name}{Name of response variable as a character string (passed
 from inference function)}
 
-\item{x_name}{Name of explanatory variable as a character string (passed 
+\item{x_name}{Name of explanatory variable as a character string (passed
 from inference function)}
 
 \item{show_var_types}{print variable types, set to verbose by default}
@@ -29,5 +29,5 @@ from inference function)}
 \item{show_inf_plot}{print inference plot, set to verbose by default}
 }
 \description{
-Helper for the `inference()` function
+Helper for the \code{inference()} function
 }

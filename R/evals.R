@@ -1,12 +1,12 @@
 #' Teachers evaluations at the University of Texas at Austin
 #'
 #' The data were gathered from end of semester student evaluations for a large
-#' sample of professors from the University of Texas at Austin (variables beginning
-#' with \code{cls}). In addition, six students rated the professors' physical
-#' appearance (variables beginning with \code{bty}). (This is a slightly modified
-#' version of the original data set that was released as part of the replication
-#' data for Data Analysis Using Regression and Multilevel/Hierarchical Models
-#' (Gelman and Hill, 2007).
+#' sample of professors from the University of Texas at Austin (variables 
+#' beginning with `cls`). In addition, six students rated the professors' 
+#' physical appearance (variables beginning with `bty`). (This is a slightly 
+#' modified version of the original data set that was released as part of the 
+#' replication data for Data Analysis Using Regression and 
+#' Multilevel/Hierarchical Models (Gelman and Hill, 2007).
 #'
 #' @format A data frame with 463 rows and 21 variables:
 #' \describe{
@@ -33,9 +33,9 @@
 #'   \item{pic_color}{Color of professor's picture: color, black & white}
 #' }
 #' @source These data appear in Hamermesh DS, and Parker A. 2005. Beauty in the
-#' classroom: instructors pulchritude and putative pedagogical productivity. Economics of Education Review
-#'  24(4):369-376. This is a slightly modified version of the original data set 
-#'  that was released as part of the replication data for Gelman, Andrew, and 
-#'  Jennifer Hill. Data analysis using regression and multilevel/hierarchical 
-#'  models. Cambridge University Press, 2006.
+#' classroom: instructors pulchritude and putative pedagogical productivity. 
+#' Economics of Education Review 24(4):369-376. This is a slightly modified 
+#' version of the original data set that was released as part of the replication 
+#' data for Gelman, Andrew, and Jennifer Hill. Data analysis using regression 
+#' and multilevel/hierarchical models. Cambridge University Press, 2006.
 "evals"

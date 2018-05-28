@@ -12,12 +12,14 @@
 #'   \item{mage}{mother's age in years}
 #'   \item{mature}{maturity status of mother}
 #'   \item{weeks}{length of pregnancy in weeks}
-#'   \item{premie}{whether the birth was classified as premature (premie) or full-term}
+#'   \item{premie}{whether the birth was classified as premature (premie) or 
+#'   full-term}
 #'   \item{visits}{number of hospital visits during pregnancy}
 #'   \item{marital}{whether mother is `married` or `not married` at birth}
 #'   \item{gained}{weight gained by mother during pregnancy in pounds}
 #'   \item{weight}{weight of the baby at birth in pounds}
-#'   \item{lowbirthweight}{whether baby was classified as low birthweight (`low`) or not (`not low`)}
+#'   \item{lowbirthweight}{whether baby was classified as low birthweight 
+#'   (`low`) or not (`not low`)}
 #'   \item{gender}{gender of the baby, `female` or `male`}
 #'   \item{habit}{status of the mother as a `nonsmoker` or a `smoker`}
 #'   \item{whitemom}{whether mom is `white` or `not white`}

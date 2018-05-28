@@ -16,13 +16,13 @@ ht_many_mean_theo(y, x, null, alternative, sig_level, y_name, x_name,
 
 \item{alternative}{direction of the alternative hypothesis; "less","greater", or "twosided"}
 
-\item{sig_level}{significance level, value between 0 and 1 
+\item{sig_level}{significance level, value between 0 and 1
 (used only for ANOVA to determine if posttests are necessary)}
 
-\item{y_name}{Name of response variable as a character string (passed 
+\item{y_name}{Name of response variable as a character string (passed
 from inference function)}
 
-\item{x_name}{Name of explanatory variable as a character string (passed 
+\item{x_name}{Name of explanatory variable as a character string (passed
 from inference function)}
 
 \item{show_var_types}{print variable types, set to verbose by default}
@@ -36,5 +36,5 @@ from inference function)}
 \item{show_inf_plot}{print inference plot, set to verbose by default}
 }
 \description{
-Helper for the `inference()` function
+Helper for the \code{inference()} function
 }
