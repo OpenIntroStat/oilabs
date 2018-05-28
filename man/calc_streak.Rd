@@ -2,7 +2,7 @@
 % Please edit documentation in R/calc_streak.R
 \name{calc_streak}
 \alias{calc_streak}
-\title{Calculate hit streaks.}
+\title{Calculate hit streaks}
 \usage{
 calc_streak(x)
 }
@@ -13,7 +13,7 @@ calc_streak(x)
 A data frame with one column, \code{length}, containing the length of each hit streak.
 }
 \description{
-Calculate hit streaks.
+Calculate hit streaks
 }
 \examples{
 data(kobe_basket)

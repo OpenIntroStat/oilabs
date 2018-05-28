@@ -1,3 +1,21 @@
+#' Hypothesis testing for one proportion, using CLT-based Z-test
+#' 
+#' Helper for the `inference()` function
+#' 
+#' @param y Response variable, can be numerical or categorical
+#' @param success which level of the categorical variable to call "success", 
+#' i.e. do inference on
+#' @param null null value for a hypothesis test
+#' @param alternative direction of the alternative hypothesis; "less", 
+#' "greater", or "twosided"
+#' @param y_name Name of response variable as a character string (passed 
+#' from inference function)
+#' @param show_var_types print variable types, set to verbose by default
+#' @param show_summ_stats print summary stats, set to verbose by default
+#' @param show_eda_plot print EDA plot, set to verbose by default
+#' @param show_inf_plot print inference plot, set to verbose by default
+#' @param show_res print results, set to verbose by default
+
 ht_single_prop_theo <- function(y, success, null, alternative, y_name,
                                 show_var_types, show_summ_stats, show_res,
                                 show_eda_plot, show_inf_plot){

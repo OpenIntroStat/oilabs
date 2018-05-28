@@ -1,4 +1,9 @@
-#' Repeating sampling.
+#' Repeating sampling with a given sample size and number of samples
+#' 
+#' Take a sample from the given data frame with a given sample size and 
+#' a desired number of times. Useful for generating sampling and bootstrap 
+#' distributions, and works well in a dplyr pipeline. Built with 
+#' `dplyr::sample_n` in mind.
 #' 
 #' @param tbl tbl of data.
 #' @param size The number of rows to select.

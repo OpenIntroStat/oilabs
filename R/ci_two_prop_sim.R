@@ -1,5 +1,27 @@
+#' Confidence interval for two proportions, using bootstrapping
+#' 
+#' Helper for the `inference()` function
+#' 
+#' @param y Response variable, can be numerical or categorical
+#' @param x Explanatory variable, categorical (optional)
+#' @param success which level of the categorical variable to call "success", 
+#' i.e. do inference on
+#' @param conf_level confidence level, value between 0 and 1
+#' @param nsim number of simulations
+#' @param seed seed to be set, default is NULL
+#' @param y_name Name of response variable as a character string (passed 
+#' from inference function)
+#' @param x_name Name of explanatory variable as a character string (passed 
+#' from inference function)
+#' @param boot_method bootstrap method; "perc" (percentile) or "se" (standard error)
+#' @param show_var_types print variable types, set to verbose by default
+#' @param show_summ_stats print summary stats, set to verbose by default
+#' @param show_eda_plot print EDA plot, set to verbose by default
+#' @param show_inf_plot print inference plot, set to verbose by default
+#' @param show_res print results, set to verbose by default
+
 ci_two_prop_sim <- function(y, x, success, conf_level, 
-                            x_name, y_name,
+                            y_name, x_name, 
                             boot_method, nsim, seed,
                             show_var_types, show_summ_stats, show_res,
                             show_eda_plot, show_inf_plot){

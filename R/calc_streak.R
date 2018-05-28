@@ -1,4 +1,4 @@
-#' Calculate hit streaks.
+#' Calculate hit streaks
 #'
 #' @param x A character vector of hits (\code{"H"}) and misses (\code{"M"}).
 #' @return A data frame with one column, \code{length}, containing the length of each hit streak.

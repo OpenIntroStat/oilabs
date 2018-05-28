@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_ss.R
 \name{plot_ss}
 \alias{plot_ss}
-\title{plot_ss}
+\title{Interactively visualize and calculate sum of squares}
 \usage{
 plot_ss(x, y, data, showSquares = FALSE, leastSquares = FALSE)
 }

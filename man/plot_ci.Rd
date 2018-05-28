@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_ci.R
 \name{plot_ci}
 \alias{plot_ci}
-\title{plot_ci}
+\title{Plot confidence intervals}
 \usage{
 plot_ci(lo, hi, m)
 }

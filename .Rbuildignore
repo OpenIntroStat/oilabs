@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^oilabs-r-package\.Rproj$
+^cran-comments\.md$
+^NEWS\.md$
+^\.travis\.yml$
+^\.github$
+^data-raw$
+^docs$
+^LICENSE\.md$

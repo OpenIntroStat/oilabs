@@ -1,3 +1,21 @@
+#' Hypothesis testing for one median, using shifted bootstrapping
+#' 
+#' Helper for the `inference()` function
+#' 
+#' @param y Response variable, can be numerical or categorical
+#' @param null null value for a hypothesis test
+#' @param alternative direction of the alternative hypothesis; "less", 
+#' "greater", or "twosided"
+#' @param y_name Name of response variable as a character string (passed 
+#' from inference function)
+#' @param nsim number of simulations
+#' @param seed seed to be set, default is NULL
+#' @param show_var_types print variable types, set to verbose by default
+#' @param show_summ_stats print summary stats, set to verbose by default
+#' @param show_eda_plot print EDA plot, set to verbose by default
+#' @param show_inf_plot print inference plot, set to verbose by default
+#' @param show_res print results, set to verbose by default
+
 ht_single_median_sim <- function(y, null, alternative, y_name,
                                  nsim, seed, 
                                  show_var_types, show_summ_stats, show_res,

@@ -1,4 +1,4 @@
-#' plot_ss
+#' Interactively visualize and calculate sum of squares
 #'
 #' An interactive function that will generate a scatterplot of two variables, then
 #' allow the user to click the plot in two locations to draw a best fit line.
