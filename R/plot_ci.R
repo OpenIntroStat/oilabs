@@ -1,7 +1,8 @@
 #' Plot confidence intervals
 #' 
-#' @description This function takes vectors of upper and lower confidence interval bounds, 
-#' as well as poplutation mean, and plots which confidence intervals intersect the mean
+#' @description This function takes vectors of upper and lower confidence 
+#' interval bounds, as well as poplutation mean, and plots which confidence 
+#' intervals intersect the mean
 #' @param lo a vector of lower bounds for confidence intervals
 #' @param hi a vector of upper bounds for confidence intervals
 #' @param m the population mean

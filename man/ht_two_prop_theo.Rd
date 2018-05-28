@@ -12,18 +12,18 @@ ht_two_prop_theo(y, x, success, null, alternative, y_name, x_name,
 
 \item{x}{Explanatory variable, categorical (optional)}
 
-\item{success}{which level of the categorical variable to call "success", 
+\item{success}{which level of the categorical variable to call "success",
 i.e. do inference on}
 
 \item{null}{null value for a hypothesis test}
 
-\item{alternative}{direction of the alternative hypothesis; "less","greater", 
+\item{alternative}{direction of the alternative hypothesis; "less","greater",
 or "twosided"}
 
-\item{y_name}{Name of response variable as a character string (passed 
+\item{y_name}{Name of response variable as a character string (passed
 from inference function)}
 
-\item{x_name}{Name of explanatory variable as a character string (passed 
+\item{x_name}{Name of explanatory variable as a character string (passed
 from inference function)}
 
 \item{show_var_types}{print variable types, set to verbose by default}
@@ -37,5 +37,5 @@ from inference function)}
 \item{show_inf_plot}{print inference plot, set to verbose by default}
 }
 \description{
-Helper for the `inference()` function
+Helper for the \code{inference()} function
 }
